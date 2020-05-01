@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: publications
 permalink: /publications/
 title: publications
 description: Publications and patents in reversed chronological order. * denotes equal contribution.
