@@ -1388,3 +1388,13 @@ ninja-keys::part(ninja-input-wrapper) {
     background-color: $theme-color;
   }
 }
+
+
+// Distill
+
+.distill {
+  a:hover {
+    border-bottom-color: $theme-color;
+    text-decoration: none;
+  }
+}
