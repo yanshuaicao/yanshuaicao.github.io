@@ -1398,3 +1398,23 @@ ninja-keys::part(ninja-input-wrapper) {
     text-decoration: none;
   }
 }
+
+
+// Projects
+
+.projects {
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        color: $theme-color;
+      }
+    }
+  }
+  .card img {
+    width: 100%;
+  }
+}
