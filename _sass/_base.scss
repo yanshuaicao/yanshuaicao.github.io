@@ -248,6 +248,7 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  background-color: var(--global-bg-color);
 }
 
 .navbar .dropdown-menu {
@@ -395,6 +396,9 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.news table th {
+  color: var(--global-text-color);
+}
 
 // Social (bottom)
 
@@ -1353,7 +1357,7 @@ ninja-keys::part(ninja-input-wrapper) {
   padding-top: 2rem;
   padding-bottom: 5rem;
   h1 {
-    color: $theme-color;
+    color: var(--global-theme-color);
     font-size: 5rem;
   }
 }
@@ -1373,19 +1377,19 @@ ninja-keys::part(ninja-input-wrapper) {
       margin-bottom: 0;
     }
     a {
-      color: black;
+      color: var(--global-text-color);
       text-decoration: none;
       &:hover {
-        color: $theme-color;
+        color: var(--global-theme-color);
       }
     }
   }
 }
 
 .pagination .page-item.active .page-link {
-  background-color: $theme-color;
+  background-color: var(--global-theme-color);
   &:hover {
-    background-color: $theme-color;
+    background-color: var(--global-theme-color);
   }
 }
 
@@ -1394,7 +1398,7 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .distill {
   a:hover {
-    border-bottom-color: $theme-color;
+    border-bottom-color: var(--global-theme-color);
     text-decoration: none;
   }
 }
@@ -1410,7 +1414,7 @@ ninja-keys::part(ninja-input-wrapper) {
       color: black;
       text-decoration: none;
       &:hover {
-        color: $theme-color;
+        color: var(--global-theme-color);
       }
     }
   }
@@ -1425,7 +1429,7 @@ ninja-keys::part(ninja-input-wrapper) {
 .publications {
   margin-top: 2rem;
   h1 {
-    color: $theme-color;
+    color: var(--global-theme-color);
     font-size: 2rem;
     text-align: center;
     margin-top: 1em;
@@ -1457,7 +1461,7 @@ ninja-keys::part(ninja-input-wrapper) {
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
-          background-color: $theme-color;
+          background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
           a {
@@ -1468,8 +1472,8 @@ ninja-keys::part(ninja-input-wrapper) {
           }
         }
         .award {
-          color: $theme-color !important;
-          border: 1px solid $theme-color;
+          color: var(--global-theme-color) !important;
+          border: 1px solid var(--global-theme-color);
         }
       }
       .title {
@@ -1477,7 +1481,7 @@ ninja-keys::part(ninja-input-wrapper) {
       }
       .author {
         a {
-          border-bottom: 1px dashed $theme-color;
+          border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
@@ -1490,15 +1494,15 @@ ninja-keys::part(ninja-input-wrapper) {
       }
       .links {
         a.btn {
-          color: $text-color;
-          border: 1px solid $text-color;
+          color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
-            color: $theme-color;
-            border-color: $theme-color;
+            color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
           }
         }
       }
@@ -1539,4 +1543,17 @@ ninja-keys::part(ninja-input-wrapper) {
       }
     }
   }
+}
+
+// Rouge Color Customization
+code {
+  color: var(--global-theme-color);
+}
+// Transitioning Themes
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
 }
