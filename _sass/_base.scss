@@ -1386,10 +1386,20 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-.pagination .page-item.active .page-link {
-  background-color: var(--global-theme-color);
-  &:hover {
-    background-color: var(--global-theme-color);
+.pagination {
+  .page-item {
+    .page-link {
+      color: var(--global-text-color);
+      &:hover {
+        color: $black-color;
+      }
+    }
+    &.active .page-link {
+      background-color: var(--global-theme-color);
+      &:hover {
+        background-color: var(--global-theme-color);
+      }
+    }
   }
 }
 
@@ -1536,10 +1546,10 @@ ninja-keys::part(ninja-input-wrapper) {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px white;
+        border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
-        border-color: $grey-color;
+        border-color: var(--global-text-color);
       }
     }
   }
