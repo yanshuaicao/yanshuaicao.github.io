@@ -249,6 +249,7 @@ ul.task-list input[type="checkbox"] {
   background-color: var(--global-bg-color);
   opacity: 0.95;
   background-color: var(--global-bg-color);
+  opacity: 0.95;
 }
 
 .navbar .dropdown-menu {
@@ -1372,7 +1373,7 @@ ninja-keys::part(ninja-input-wrapper) {
     padding-top: 2rem;
     padding-bottom: 2rem;
     .post-meta {
-      color: $grey-color;
+      color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
     }
@@ -1428,8 +1429,13 @@ ninja-keys::part(ninja-input-wrapper) {
       }
     }
   }
-  .card img {
-    width: 100%;
+  .card { 
+    img {
+      width: 100%;
+    }
+    .card-title {
+      color: $black-color;
+    }
   }
 }
 
@@ -1556,9 +1562,30 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 // Rouge Color Customization
+figure.highlight {
+  margin: 0 0 1rem;
+}
+
+pre {
+  color: var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  border-radius: 6px;
+  padding: 6px 12px;
+  pre, code {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+
 code {
   color: var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  border-radius: 3px;
+  padding: 3px 3px;
 }
+
+
 // Transitioning Themes
 html.transition,
 html.transition *,
