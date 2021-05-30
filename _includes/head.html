@@ -21,7 +21,6 @@
 <!-- Styles -->
 <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico'  | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
 <!-- JQuery -->
@@ -29,21 +28,20 @@
 
 <!-- Theming-->
 {% if site.enable_darkmode %}
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <!-- Load DarkMode JS -->
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
 
 {% if site.enable_google_analytics %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
 
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
+  gtag('config', '{{ site.google_analytics }}');
+</script>
 {% endif %}
 
 {% if site.enable_panelbear_analytics %}
