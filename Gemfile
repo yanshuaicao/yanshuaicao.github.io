@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'jekyll-tabs'
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
+    gem 'jekyll-sitemap'
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
