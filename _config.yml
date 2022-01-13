@@ -50,6 +50,8 @@ rss_icon: true
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
+rss_icon: true
+
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -456,7 +458,7 @@ imagemagick:
     - 800
     - 1400
   input_directories:
-    - assets/img
+    - assets/img/
   input_formats:
     - ".jpg"
     - ".jpeg"
