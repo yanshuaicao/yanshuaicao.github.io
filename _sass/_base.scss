@@ -1438,9 +1438,6 @@ ninja-keys::part(ninja-input-wrapper) {
     img {
       width: 100%;
     }
-    .card-title {
-      color: $black-color;
-    }
   }
 
   .card-item {
@@ -1453,7 +1450,7 @@ ninja-keys::part(ninja-input-wrapper) {
     }
   }
 
-  .grid-item {
+  .grid-sizer, .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
