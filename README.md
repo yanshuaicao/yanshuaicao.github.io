@@ -1,6 +1,6 @@
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers'
+[core_contributors]: https://img.shields.io/badge/core_contributors-4-orange.svg 'Number of core contributors'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <div align="center">
