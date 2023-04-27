@@ -1419,6 +1419,12 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
+.post-title {
+  mjx-container[jax="CHTML"][display="true"] {
+    display: unset;
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
@@ -1450,6 +1456,10 @@ ninja-keys::part(ninja-input-wrapper) {
       &:hover {
         color: var(--global-theme-color);
       }
+    }
+
+    mjx-container[jax="CHTML"][display="true"] {
+      display: unset;
     }
   }
 }
