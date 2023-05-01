@@ -59,7 +59,7 @@ $(document).ready(function () {
 });
 
 // bootstrap-toc
-$(function () {
+$(document).ready(function () {
     if($('#toc-sidebar').length){
         var navSelector = "#toc-sidebar";
         var $myNav = $(navSelector);
@@ -69,3 +69,4 @@ $(function () {
         });
     }
 });
+
