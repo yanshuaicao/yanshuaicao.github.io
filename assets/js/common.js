@@ -58,15 +58,13 @@ $(document).ready(function () {
   });
 });
 
-// bootstrap-toc
-$(document).ready(function () {
-    if($('#toc-sidebar').length){
-        var navSelector = "#toc-sidebar";
-        var $myNav = $(navSelector);
-        Toc.init($myNav);
-        $("body").scrollspy({
-            target: navSelector,
-        });
+    if (theme == "dark") {
+      $(this).bind("load",function(){
+        $(this).contents().find("body").attr({
+          "data-jp-theme-light": "false",
+          "data-jp-theme-name": "JupyterLab Dark"});
+      });
     }
+  });
 });
 
