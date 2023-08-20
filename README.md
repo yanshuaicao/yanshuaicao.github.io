@@ -391,14 +391,13 @@ Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.
 
 ## Table Of Contents
 
-- [al-folio](#al-folio)
-  - [User community](#user-community)
-  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-  - [Table Of Contents](#table-of-contents)
-  - [Getting started](#getting-started)
+  * [User community](#user-community)
+  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+  * [Table Of Contents](#table-of-contents)
+  * [Getting started](#getting-started)
     - [Installation](#installation)
-      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
-      - [Local Setup (Standard)](#local-setup-standard)
+      - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
+      - [Local Setup (Legacy)](#local-setup-legacy)
       - [Deployment](#deployment)
       - [Upgrading from a previous version](#upgrading-from-a-previous-version)
     - [FAQ](#faq)
