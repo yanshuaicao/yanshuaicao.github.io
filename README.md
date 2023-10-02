@@ -429,6 +429,7 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
       - [Related posts](#related-posts)
   - [Contributing](#contributing)
     - [Maintainers](#maintainers)
+    - [All Contributors](#all-contributors)
   - [License](#license)
 
 ## Getting started
