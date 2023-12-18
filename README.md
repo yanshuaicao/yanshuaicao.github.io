@@ -268,7 +268,7 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Academics</td>
 <td>
-<a href="https://martinbulla.github.io" target="_blank">★</a>  
+<a href="https://martinbulla.github.io" target="_blank">★</a>
 <a href="https://maruan.alshedivat.com" target="_blank">★</a>
 <a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
 <a href="https://maithraraghu.com" target="_blank">★</a>
@@ -411,6 +411,7 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
 
 ## Table Of Contents
 
+- [al-folio](#al-folio)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
   - [Table Of Contents](#table-of-contents)
@@ -422,6 +423,7 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
       - [Upgrading from a previous version](#upgrading-from-a-previous-version)
     - [FAQ](#faq)
   - [Features](#features)
+    - [CV](#cv)
     - [Publications](#publications)
     - [Collections](#collections)
     - [Layouts](#layouts)
