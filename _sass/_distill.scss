@@ -154,8 +154,8 @@ d-article {
       color: var(--global-theme-color);
     }
     p {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
   }
 
@@ -170,7 +170,7 @@ d-article {
     border-right: 1px solid var(--global-divider-color);
     width: calc(max(70%, 300px));
     margin-right: 0px;
-    margin-top:  0em;
+    margin-top: 0em;
     display: grid;
     grid-template-columns:
       minmax(8px, 1fr) [toc] auto
