@@ -1,10 +1,6 @@
-name: Prettier code formatter
+name: Prettier code formatter (push)
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
   push:
     branches:
       - master
