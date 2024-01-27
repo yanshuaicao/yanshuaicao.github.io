@@ -34,6 +34,7 @@ let applyTheme = () => {
   if (typeof mermaid !== "undefined") {
     setMermaidTheme(theme);
   }
+
   // if echarts is not defined, do nothing
   if (typeof echarts !== "undefined") {
     setEchartsTheme(theme);
