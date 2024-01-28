@@ -35,6 +35,11 @@ let applyTheme = () => {
     setMermaidTheme(theme);
   }
 
+  // if diff2html is not defined, do nothing
+  if (typeof Diff2HtmlUI !== "undefined") {
+    setDiff2htmlTheme(theme);
+  }
+
   // if echarts is not defined, do nothing
   if (typeof echarts !== "undefined") {
     setEchartsTheme(theme);
