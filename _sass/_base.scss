@@ -1660,6 +1660,9 @@ ninja-keys::part(ninja-input-wrapper) {
             border-color: var(--global-theme-color);
           }
         }
+        a.award.btn {
+          border-color: var(--global-highlight-color);
+        }
       }
 
       .badges {
@@ -1716,6 +1719,12 @@ ninja-keys::part(ninja-input-wrapper) {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+    }
+    div.award.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+    div.award.hidden.open {
+      border-color: var(--global-highlight-color);
     }
   }
 }
