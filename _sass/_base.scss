@@ -1596,8 +1596,8 @@ ninja-keys::part(ninja-input-wrapper) {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          margin-bottom: 0.5rem;
+          width: 100%;
 
           a {
             color: white;
