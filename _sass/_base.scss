@@ -1519,16 +1519,6 @@ ninja-keys::part(ninja-input-wrapper) {
     }
   }
 
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
-  }
-
   .grid-sizer,
   .grid-item {
     width: 250px;
@@ -1976,10 +1966,6 @@ nav[data-toggle="toc"] {
         color: var(--global-theme-color);
       }
     }
-  }
-
-  .card-item {
-    margin-bottom: 10px;
   }
 
   .post-meta {
