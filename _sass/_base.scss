@@ -1519,6 +1519,10 @@ ninja-keys::part(ninja-input-wrapper) {
     }
   }
 
+  .col {
+    padding-bottom: 1rem;
+  }
+
   .grid-sizer,
   .grid-item {
     width: 250px;
