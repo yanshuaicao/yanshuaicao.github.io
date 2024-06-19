@@ -473,6 +473,7 @@ filtered_bibtex_keywords:
     abstract,
     additional_info,
     altmetric,
+    annotation,
     arxiv,
     award,
     award_name,
