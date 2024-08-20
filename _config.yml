@@ -490,6 +490,7 @@ filtered_bibtex_keywords:
     blog,
     code,
     html,
+    inspirehep_id,
     pdf,
     poster,
     preview,
