@@ -245,6 +245,26 @@
       crossorigin="anonymous"
     >
   {% endif %}
+  <!-- Spotlight -->
+  {% if page.images.spotlight %}
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.spotlight.url.css }}"
+      integrity="{{ site.third_party_libraries.spotlight.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  <!-- Venobox -->
+  {% if page.images.venobox %}
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.venobox.url.css }}"
+      integrity="{{ site.third_party_libraries.venobox.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
 {% endif %}
 
 {% if page.tikzjax %}
