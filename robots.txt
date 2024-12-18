@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yanshuaicao.github.io/sitemap.xml
+Sitemap: https://yanshuaicao-new.github.io/sitemap.xml
