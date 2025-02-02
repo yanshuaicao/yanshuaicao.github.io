@@ -3,113 +3,762 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@Article{wen2024ebbsensemblebilevelbeam,
+      bibtex_show={true},
+      abbr={AAAI},
+      title={EBBS: An Ensemble with Bi-Level Beam Search for Zero-Shot Machine Translation}, 
+      author={Yuqiao Wen and Behzad Shayegh and Chenyang Huang and Yanshuai Cao and Lili Mou},
+      year={2025},
+      arxiv={2403.00144},
+      journal={The 39th Annual AAAI Conference on Artificial Intelligence},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      abstract={The ability of zero-shot translation emerges when we train a multilingual model with certain translation directions; the model can then directly translate in unseen directions. Alternatively, zero-shot translation can be accomplished by pivoting through a third language (e.g., English). In our work, we observe that both direct and pivot translations are noisy and achieve less satisfactory performance. We propose EBBS, an ensemble method with a novel bi-level beam search algorithm, where each ensemble component explores its own prediction step by step at the lower level but they are synchronized by a "soft voting" mechanism at the upper level. Results on two popular multilingual translation datasets show that EBBS consistently outperforms direct and pivot translations as well as existing ensemble techniques. Further, we can distill the ensemble's knowledge back to the multilingual model to improve inference efficiency; profoundly, our EBBS-based distillation does not sacrifice, or even improves, the translation quality.},
+      url={https://arxiv.org/abs/2403.00144}, 
+      preview={ebbs.png},
 }
 
-@book{einstein1956investigations,
+@article{hao2024neuzip,
+      bibtex_show={true},
+      abbr={Preprint},
+      title={NeuZip: Memory-Efficient Training and Inference with Dynamic Compression of Neural Networks},
+      author={Hao, Yongchang and Cao, Yanshuai and Mou, Lili},
+      journal={arXiv preprint arXiv:2410.20650},
+      arxiv={2410.20650},
+      year={2024},
+      abstract={The performance of neural networks improves when more parameters are used. However, the model sizes are constrained by the available on-device memory during training and inference. Although applying techniques like quantization can alleviate the constraint, they suffer from performance degradation. In this work, we introduce NeuZip, a new weight compression scheme based on the entropy of floating-point numbers in neural networks. With NeuZip, we are able to achieve memory-efficient training and inference without sacrificing performance. Notably, we significantly reduce the memory footprint of training a Llama-3 8B model from 31GB to less than 16GB, while keeping the training dynamics fully unchanged. In inference, our method can reduce memory usage by more than half while maintaining near-lossless performance. Our code is publicly available.},
+      selected={true},
+      preview={neuzip.png},
+}
+
+@inproceedings{mahdavi2024leveragingenvironmentinteractionautomated,
+      bibtex_show={true},
+      abbr={NeurIPS},
+      title={Leveraging Environment Interaction for Automated PDDL Translation and Planning with Large Language Models}, 
+      author={Sadegh Mahdavi and Raquel Aoki and Keyi Tang and Yanshuai Cao},
+      booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+      year={2024},
+      arxiv={2407.12979},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.12979}, 
+      html={https://openreview.net/forum?id=RzlCqnncQv},
+      abstract={Large Language Models (LLMs) have shown remarkable performance in various natural language tasks, but they often struggle with planning problems that require structured reasoning. To address this limitation, the conversion of planning problems into the Planning Domain Definition Language (PDDL) has been proposed as a potential solution, enabling the use of automated planners. However, generating accurate PDDL files typically demands human inputs or correction, which can be time-consuming and costly. In this paper, we propose a novel approach that leverages LLMs and environment feedback to automatically generate PDDL domain and problem description files without the need for human intervention. Our method introduces an iterative refinement process that generates multiple problem PDDL candidates and progressively refines the domain PDDL based on feedback obtained from interacting with the environment. To guide the refinement process, we develop an Exploration Walk (EW) metric, which provides rich feedback signals for LLMs to update the PDDL file. We evaluate our approach on 
+ PDDL environments. We achieve an average task solve rate of 66% compared to a 29% solve rate by GPT-4's intrinsic planning with chain-of-thought prompting. Our work enables the automated modeling of planning environments using LLMs and environment feedback, eliminating the need for human intervention in the PDDL translation process and paving the way for more reliable LLM agents in challenging problems. Our code is available at https://github.com/BorealisAI/llm-pddl-planning},
+   selected={true},
+   preview={llm_pddl.png},
+}
+
+@inproceedings{lillms,
+      bibtex_show={true},
+      abbr={NeurIPS},
+      title={Do LLMs Build World Representations? Probing Through the Lens of State Abstraction},
+      author={Li, Zichao and Cao, Yanshuai and Cheung, Jackie CK},
+      booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+      year={2024},
+      abstract={How do large language models (LLMs) encode the state of the world, including the status of entities and their relations, as described by a text? While existing work directly probes for a complete state of the world, our research explores whether and how LLMs abstract this world state in their internal representations. We propose a new framework for probing for world representations through the lens of state abstraction theory from reinforcement learning, which emphasizes different levels of abstraction, distinguishing between general abstractions that facilitate predicting future states and goal-oriented abstractions that guide the subsequent actions to accomplish tasks. To instantiate this framework, we design a text-based planning task, where an LLM acts as an agent in an environment and interacts with objects in containers to achieve a specified goal state. Our experiments reveal that fine-tuning as well as advanced pre-training strengthens LLM-built representations' tendency of maintaining goal-oriented abstractions during decoding, prioritizing task completion over recovery of the world's state and dynamics.},
+      html={https://openreview.net/forum?id=lzfzjYuWgY},
+      code={https://github.com/BorealisAI/llm-world-abs},
+      selected={true},
+      preview={llm_abstraction.png}
+}
+
+@inproceedings{alamdari-etal-2024-jump,
+      bibtex_show={true},
+      abbr={ACL},
+      title = "Jump Starting Bandits with {LLM}-Generated Prior Knowledge",
+      author = "Alamdari, Parand A.  and
+        Cao, Yanshuai  and
+        Wilson, Kevin H.",
+      editor = "Al-Onaizan, Yaser  and
+        Bansal, Mohit  and
+        Chen, Yun-Nung",
+      booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      month = nov,
+      year = "2024",
+      address = "Miami, Florida, USA",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2024.emnlp-main.1107",
+      doi = "10.18653/v1/2024.emnlp-main.1107",
+      pages = "19821--19833",
+      abstract = "We present substantial evidence demonstrating the benefits of integrating Large Language Models (LLMs) with a Contextual Multi-Armed Bandit framework. Contextual bandits have been widely used in recommendation systems to generate personalized suggestions based on user-specific contexts. We show that LLMs, pre-trained on extensive corpora rich in human knowledge and preferences, can simulate human behaviours well enough to jump-start contextual multi-armed bandits to reduce online learning regret. We propose an initialization algorithm for contextual bandits by prompting LLMs to produce a pre-training dataset of approximate human preferences for the bandit. This significantly reduces online learning regret and data-gathering costs for training such models. Our approach is validated empirically through two sets of experiments with different bandit setups: one which utilizes LLMs to serve as an oracle and a real-world experiment utilizing data from a conjoint survey experiment.",
+      html="https://aclanthology.org/2024.emnlp-main.1107/",
+      code={https://github.com/BorealisAI/jump-starting-bandits},
+      arxiv={2406.19317},
+      selected={true},
+      preview={jumpstart.png}
+}
+
+@inproceedings{hao2024flora,
+      bibtex_show={true},
+      abbr={ICML},
+      title={Flora: Low-Rank Adapters Are Secretly Gradient Compressors},
+      author={Hao, Yongchang and Cao, Yanshuai and Mou, Lili},
+      booktitle={Forty-first International Conference on Machine Learning},
+      url={https://arxiv.org/abs/2402.03293},
+      arxiv={2402.03293},
+      year={2024},
+      blog={https://rbcborealis.com/publications/flora-low-rank-adapters-are-secretly-gradient-compressors/},
+      code={https://github.com/BorealisAI/flora-opt},
+      abstract="Despite large neural networks demonstrating remarkable abilities to complete different tasks, they require excessive memory usage to store the optimization states for training. To alleviate this, the low-rank adaptation (LoRA) is proposed to reduce the optimization states by training fewer parameters. However, LoRA restricts overall weight update matrices to be low-rank, limiting the model performance. In this work, we investigate the dynamics of LoRA and identify that it can be approximated by a random projection. Based on this observation, we propose Flora, which is able to achieve high-rank updates by resampling the projection matrices while enjoying the sublinear space complexity of optimization states. We conduct experiments across different tasks and model architectures to verify the effectiveness of our approach.",
+      selected={true},
+      preview={flora.png}
+}
+
+@article{hao2024gingerefficientcurvatureapproximation,
+      bibtex_show={true},
+      abbr={Preprint},
+      title={Ginger: An Efficient Curvature Approximation with Linear Complexity for General Neural Networks}, 
+      author={Yongchang Hao and Yanshuai Cao and Lili Mou},
+      journal={arXiv preprint arXiv:2402.03295},
+      year={2024},
+      arxiv={2402.03295},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2402.03295}, 
+}
+
+@article{shayegh2023ensemble,
+      bibtex_show={true},
+      abbr={ICLR},
+      title={Ensemble distillation for unsupervised constituency parsing},
+      author={Shayegh, Behzad and Cao, Yanshuai and Zhu, Xiaodan and Cheung, Jackie CK and Mou, Lili},
+      journal = {International Conference on Learning Representations},
+      arxiv={2310.01717},
+      html={https://openreview.net/forum?id=RR8y0WKrFv},
+      code={https://paperswithcode.com/sota/constituency-grammar-induction-on-ptb?p=ensemble-distillation-for-unsupervised},
+      year={2024},
+      abstract={We investigate the unsupervised constituency parsing task, which organizes words and phrases of a sentence into a hierarchical structure without using linguistically annotated data. We observe that existing unsupervised parsers capture different aspects of parsing structures, which can be leveraged to enhance unsupervised parsing performance. To this end, we propose a notion of "tree averaging," based on which we further propose a novel ensemble method for unsupervised parsing. To improve inference efficiency, we further distill the ensemble knowledge into a student model; such an ensemble-then-distill process is an effective approach to mitigate the over-smoothing problem existing in common multi-teacher distilling methods. Experiments show that our method surpasses all previous approaches, consistently demonstrating its effectiveness and robustness across various runs, with different ensemble components, and under domain-shift conditions.}
+}
+
+@Article{wen2023equalsizehardemalgorithm,
+      bibtex_show={true},
+      abbr={ICLR},
+      title={An Equal-Size Hard EM Algorithm for Diverse Dialogue Generation}, 
+      author={Yuqiao Wen and Yongchang Hao and Yanshuai Cao and Lili Mou},
+      year={2023},
+      journal = {International Conference on Learning Representations},
+      arxiv={2209.14627},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2209.14627}, 
+      html={https://iclr.cc/virtual/2023/poster/11301},
+}
+
+@article{yang2021hierarchicalneuraldatasynthesis,
+      bibtex_show={true},
+      abbr={Preprint},
+      title={Hierarchical Neural Data Synthesis for Semantic Parsing}, 
+      author={Wei Yang and Peng Xu and Yanshuai Cao},
+      journal={arXiv preprint arXiv:2112.02212},
+      year={2021},
+      arxiv={2112.02212},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      abstract = "Semantic parsing datasets are expensive to collect. Moreover, even the questions pertinent to a given domain, which are the input of a semantic parsing system, might not be readily available, especially in cross-domain semantic parsing. This makes data augmentation even more challenging. Existing methods to synthesize new data use hand-crafted or induced rules, requiring substantial engineering effort and linguistic expertise to achieve good coverage and precision, which limits the scalability. In this work, we propose a purely neural approach of data augmentation for semantic parsing that completely removes the need for grammar engineering while achieving higher semantic parsing accuracy. Furthermore, our method can synthesize in the zero-shot setting, where only a new domain schema is available without any input-output examples of the new domain. On the Spider cross-domain text-to-SQL semantic parsing benchmark, we achieve the state-of-the-art performance on the development set (77.2% accuracy) using our zero-shot augmentation.",
+      url={https://arxiv.org/abs/2112.02212}, 
+}
+
+@inproceedings{norouzi-etal-2021-code,
+      bibtex_show={true},
+      abbr={ACL},
+      title = "Code Generation from Natural Language with Less Prior Knowledge and More Monolingual Data",
+      author = "Norouzi, Sajad  and
+        Tang, Keyi  and
+        Cao, Yanshuai",
+      booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics",
+      month = aug,
+      year = "2021",
+      address = "Online",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2021.acl-short.98",
+      doi = "10.18653/v1/2021.acl-short.98",
+      pages = "776--785",
+      abstract = "Training datasets for semantic parsing are typically small due to the higher expertise required for annotation than most other NLP tasks. As a result, models for this application usually need additional prior knowledge to be built into the architecture or algorithm. The increased dependency on human experts hinders automation and raises the development and maintenance costs in practice. This work investigates whether a generic transformer-based seq2seq model can achieve competitive performance with minimal code-generation-specific inductive bias design. By exploiting a relatively sizeable monolingual corpus of the target programming language, which is cheap to mine from the web, we achieved 81.03{\%} exact match accuracy on Django and 32.57 BLEU score on CoNaLa. Both are SOTA to the best of our knowledge. This positive evidence highlights a potentially easier path toward building accurate semantic parsers in practice.",
+      code={https://github.com/BorealisAI/code-gen-TAE},
+      selected={true},
+      html = {https://aclanthology.org/2021.acl-short.98/},
+      preview={codegen_mono.png}
+}
+
+@inproceedings{xu-etal-2021-optimizing,
+      bibtex_show={true},
+      abbr={ACL},
+      title = "Optimizing Deeper Transformers on Small Datasets",
+      author = "Xu, Peng  and
+        Kumar, Dhruv  and
+        Yang, Wei  and
+        Zi, Wenjie  and
+        Tang, Keyi  and
+        Huang, Chenyang  and
+        Cheung, Jackie Chi Kit  and
+        Prince, Simon J.D.  and
+        Cao, Yanshuai",
+      booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics",
+      month = aug,
+      year = "2021",
+      address = "Online",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2021.acl-long.163",
+      doi = "10.18653/v1/2021.acl-long.163",
+      pages = "2089--2102",
+      html={https://aclanthology.org/2021.acl-long.163},
+      abstract = "It is a common belief that training deep transformers from scratch requires large datasets. Consequently, for small datasets, people usually use shallow and simple additional layers on top of pre-trained models during fine-tuning. This work shows that this does not always need to be the case: with proper initialization and optimization, the benefits of very deep transformers can carry over to challenging tasks with small datasets, including Text-to-SQL semantic parsing and logical reading comprehension. In particular, we successfully train 48 layers of transformers, comprising 24 fine-tuned layers from pre-trained RoBERTa and 24 relation-aware layers trained from scratch. With fewer training steps and no task-specific pre-training, we obtain the state of the art performance on the challenging cross-domain Text-to-SQL parsing benchmark Spider. We achieve this by deriving a novel Data dependent Transformer Fixed-update initialization scheme (DT-Fixup), inspired by the prior T-Fixup work. Further error analysis shows that increasing depth can help improve generalization on small datasets for hard cases that require reasoning and structural understanding.",
+      code={https://github.com/BorealisAI/DT-Fixup},
+      selected={true},
+      preview={dt_fixup.png}
+}
+
+@inproceedings{xu-etal-2021-turing,
+      bibtex_show={true},
+      abbr={ACL-Demo},
+      title = "{TURING}: an Accurate and Interpretable Multi-Hypothesis Cross-Domain Natural Language Database Interface",
+      author = "Xu, Peng  and
+        Zi, Wenjie  and
+        Shahidi, Hamidreza  and
+        K{\'a}d{\'a}r, {\'A}kos  and
+        Tang, Keyi  and
+        Yang, Wei  and
+        Ateeq, Jawad  and
+        Barot, Harsh  and
+        Alon, Meidan  and
+        Cao, Yanshuai",
+      booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+      month = aug,
+      year = "2021",
+      address = "Online",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2021.acl-demo.36",
+      doi = "10.18653/v1/2021.acl-demo.36",
+      pages = "298--305",
+      html={https://www.borealisai.com/en/applying-ai/turing/},
+      abstract = "A natural language database interface (NLDB) can democratize data-driven insights for non-technical users. However, existing Text-to-SQL semantic parsers cannot achieve high enough accuracy in the cross-database setting to allow good usability in practice. This work presents TURING, a NLDB system toward bridging this gap. The cross-domain semantic parser of TURING with our novel value prediction method achieves 75.1{\%} execution accuracy, and 78.3{\%} top-5 beam execution accuracy on the Spider validation set (Yu et al., 2018b). To benefit from the higher beam accuracy, we design an interactive system where the SQL hypotheses in the beam are explained step-by-step in natural language, with their differences highlighted. The user can then compare and judge the hypotheses to select which one reflects their intention if any. The English explanations of SQL queries in TURING are produced by our high-precision natural language generation system based on synchronous grammars.",
+}
+
+@inproceedings{huang-etal-2021-globally,
+      bibtex_show={true},
+      abbr={Workshop},
+      title = "A Globally Normalized Neural Model for Semantic Parsing",
+      author = {Huang, Chenyang  and
+        Yang, Wei  and
+        Cao, Yanshuai  and
+        Za{\"\i}ane, Osmar  and
+        Mou, Lili},
+      booktitle = "Proceedings of the 5th Workshop on Structured Prediction for NLP (SPNLP 2021)",
+      month = aug,
+      year = "2021",
+      address = "Online",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2021.spnlp-1.7",
+      doi = "10.18653/v1/2021.spnlp-1.7",
+      pages = "61--66",
+      html={https://aclanthology.org/2021.spnlp-1.7/},
+      abstract = "In this paper, we propose a globally normalized model for context-free grammar (CFG)-based semantic parsing. Instead of predicting a probability, our model predicts a real-valued score at each step and does not suffer from the label bias problem. Experiments show that our approach outperforms locally normalized models on small datasets, but it does not yield improvement on a large dataset.",
+}
+
+
+
+@InProceedings{pmlr-v108-cao20a,
+      bibtex_show={true},
+      abbr={AISTATS},
+      title = {Better Long-Range Dependency By Bootstrapping A Mutual Information Regularizer},
+      author = {Cao*, Yanshuai and Xu*, Peng},
+      booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
+      pages = {3991--4001},
+      year = {2020},
+      editor = {Silvia Chiappa and Roberto Calandra}, volume = {108},
+      series = {Proceedings of Machine Learning Research},
+      address = {Online},
+      month = {26--28 Aug},
+      publisher = {PMLR},
+      pdf = {http://proceedings.mlr.press/v108/cao20a/cao20a.pdf},
+      html = {http://proceedings.mlr.press/v108/cao20a.html},
+      abstract = {In this work, we develop a novel regularizer to improve the learning of long-range dependency of sequence data. Applied on language modelling, our regularizer expresses the inductive bias that sequence variables should have high mutual information even though the model might not see abundant observations for complex long-range dependency. We show how the "next sentence prediction (classification)" heuristic can be derived in a principled way from our mutual information estimation framework, and be further extended to maximize the mutual information of sequence variables. The proposed approach not only is effective at increasing the mutual information of segments under the learned model but more importantly, leads to a higher likelihood on holdout data, and improved generation quality. Code is releasedat https://github.com/BorealisAI/BMI.},
+      arxiv={1905.11978},
+      code={https://github.com/BorealisAI/BMI},
+      selected={true},
+      preview={llm_mi.png},
+}
+
+@InProceedings{pmlr-v119-huang20c,
+      bibtex_show={true},
+      abbr={ICML},
+      title = {Evaluating Lossy Compression Rates of Deep Generative Models},
+      author = {Huang*, Sicong and Makhzani*, Alireza and Cao, Yanshuai and Grosse, Roger},
+      booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+      pages = {4444--4454}, year = {2020},
+      editor = {Hal Daumé III and Aarti Singh},
+      volume = {119},
+      series = {Proceedings of Machine Learning Research},
+      address = {Virtual},
+      month = {13--18 Jul},
+      publisher = {PMLR},
+      pdf = {http://proceedings.mlr.press/v119/huang20c/huang20c.pdf},
+      html = {http://proceedings.mlr.press/v119/huang20c.html},
+      abstract = {The field of deep generative modeling has succeeded in producing astonishingly realistic-seeming images and audio, but quantitative evaluation remains a challenge. Log-likelihood is an appealing metric due to its grounding in statistics and information theory, but it can be challenging to estimate for implicit generative models, and scalar-valued metrics give an incomplete picture of a model's quality. In this work, we propose to use rate distortion (RD) curves to evaluate and compare deep generative models. While estimating RD curves is seemingly even more computationally demanding than log-likelihood estimation, we show that we can approximate the entire RD curve using nearly the same computations as were previously used to achieve a single log-likelihood estimate. We evaluate lossy compression rates of VAEs, GANs, and adversarial autoencoders (AAEs) on the MNIST and CIFAR10 datasets. Measuring the entire RD curve gives a more complete picture than scalar-valued metrics, and we arrive at a number of insights not obtainable from log-likelihoods alone.},
+      arxiv={2008.06653},
+      code={https://github.com/huangsicong/rate_distortion},
+      selected={true},
+      preview={rd_eval.png},
+}
+
+@InProceedings{pmlr-v119-xu20a,
+      bibtex_show={true},
+      abbr={ICML},
+      title = {On Variational Learning of Controllable Representations for Text without Supervision},
+      author = {Xu, Peng and Cheung, Jackie Chi Kit and Cao, Yanshuai},
+      booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+      pages = {10534--10543},
+      year = {2020},
+      editor = {Hal Daumé III and Aarti Singh},
+      volume = {119},
+      series = {Proceedings of Machine Learning Research}, address = {Virtual}, month = {13--18 Jul}, publisher = {PMLR},
+      pdf = {http://proceedings.mlr.press/v119/xu20a/xu20a.pdf},
+      url = {http://proceedings.mlr.press/v119/xu20a.html},
+      abstract = {The variational autoencoder (VAE) can learn the manifold of natural images on certain datasets, as evidenced by meaningful interpolating or extrapolating in the continuous latent space. However, on discrete data such as text, it is unclear if unsupervised learning can discover similar latent space that allows controllable manipulation. In this work, we find that sequence VAEs trained on text fail to properly decode when the latent codes are manipulated, because the modified codes often land in holes or vacant regions in the aggregated posterior latent space, where the decoding network fails to generalize. Both as a validation of the explanation and as a fix to the problem, we propose to constrain the posterior mean to a learned probability simplex, and performs manipulation within this simplex. Our proposed method mitigates the latent vacancy problem and achieves the first success in unsupervised learning of controllable representations for text. Empirically, our method outperforms unsupervised baselines and strong supervised approaches on text style transfer, and is capable of performing more flexible fine-grained control over text generation than existing methods.},
+      html={http://proceedings.mlr.press/v119/xu20a.html},
+      arxiv={1905.11975},
+      code={https://github.com/BorealisAI/CP-VAE},
+      selected={true},
+      preview={vae_controllable.png},
+}
+
+@article{deng2020variational,
+      bibtex_show={true},
+      abbr={Preprint},
+      title={Variational Hyper RNN for Sequence Modeling},
+      author={Deng, Ruizhi and Cao, Yanshuai and Chang, Bo and Sigal, Leonid and Mori, Greg and Brubaker, Marcus A},
+      journal={arXiv preprint arXiv:2002.10501},
+      year={2020},
+      abstract={In this work, we propose a novel probabilistic sequence model that excels at capturing high variability in time series data, both across sequences and within an individual sequence. Our method uses temporal latent variables to capture information about the underlying data pattern and dynamically decodes the latent information into modifications of weights of the base decoder and recurrent model. The efficacy of the proposed method is demonstrated on a range of synthetic and real-world sequential data that exhibit large scale variations, regime shifts, and complex dynamics.},
+      arxiv={2002.10501}
+}
+
+@article{long2019preventing,
+      bibtex_show={true},
+      abbr={Preprint},
+      title={Preventing Posterior Collapse in Sequence VAEs with Pooling},
+      author={Long, Teng and Cao, Yanshuai and Cheung, Jackie Chi Kit},
+      journal={arXiv preprint arXiv:1911.03976},
+      year={2019},
+      abstract={Variational autoencoders (VAEs) hold great potential for modelling text, as they could in theory separate high-level semantic and syntactic properties from local regularities of natural language. Practically, however, VAEs with autoregressive decoders often suffer from posterior collapse, a phenomenon where the model learns to ignore the latent variables, causing the sequence VAE to degenerate into a language model. In this paper, we argue that posterior collapse is in part caused by the lack of dispersion in encoder features. We provide empirical evidence to verify this hypothesis, and propose a straightforward fix using pooling. This simple technique effectively prevents posterior collapse, allowing model to achieve significantly better data log-likelihood than standard sequence VAEs. Comparing to existing work, our proposed method is able to achieve comparable or superior performances while being more computationally efficient.},
+      arxiv={1911.03976}
+}
+
+@inproceedings{xu-etal-2019-cross,
+      bibtex_show={true},
+      abbr={ACL},
+      title = "A Cross-Domain Transferable Neural Coherence Model",
+      author = "Xu, Peng  and
+        Saghir, Hamidreza  and
+        Kang, Jin Sung  and
+        Long, Teng  and
+        Bose, Avishek Joey  and
+        Cao, Yanshuai  and
+        Cheung, Jackie Chi Kit",
+      booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      month = jul,
+      year = "2019",
+      address = "Florence, Italy",
+      publisher = "Association for Computational Linguistics",
+      url = "https://www.aclweb.org/anthology/P19-1067",
+      doi = "10.18653/v1/P19-1067",
+      pages = "678--687",
+      abstract = {Coherence is an important aspect of text quality and is crucial for ensuring its readability. One important limitation of existing coherence models is that training on one domain does not easily generalize to unseen categories of text. Previous work advocates for generative models for cross-domain generalization, because for discriminative models, the space of incoherent sentence orderings to discriminate against during training is prohibitively large. In this work, we propose a local discriminative neural model with a much smaller negative sampling space that can efficiently learn against incorrect orderings. The proposed coherence model is simple in structure, yet it significantly outperforms previous state-of-art methods on a standard benchmark dataset on the Wall Street Journal corpus, as well as in multiple new challenging settings of transfer to unseen categories of discourse on Wikipedia articles.},
+      arxiv={1905.11912},
+      code={https://github.com/BorealisAI/cross_domain_coherence},
+}
+
+@article{wen2018few,
+      bibtex_show={true},
+      abbr={Preprint},
+      title={Few-shot Self-Reminder to Overcome Catastrophic Forgetting},
+      author={Wen, Junfeng and Cao, Yanshuai and Huang, Ruitong},
+      journal={NeurIPS 2018 Workshop on Continual Learning},
+      year={2018},
+      abstract={Deep neural networks are known to suffer the catastrophic forgetting problem, where they tend to forget the knowledge from the previous tasks when sequentially learning new tasks. Such failure hinders the application of deep learning based vision system in continual learning settings. In this work, we present a simple yet surprisingly effective way of preventing catastrophic forgetting. Our method, called Few-shot Self Reminder (FSR), regularizes the neural net from changing its learned behaviour by performing logit matching on selected samples kept in episodic memory from the old tasks. Surprisingly, this simplistic approach only requires to retrain a small amount of data in order to outperform previous methods in knowledge retention. We demonstrate the superiority of our method to the previous ones in two different continual learning settings on popular benchmarks, as well as a new continual learning problem where tasks are designed to be more dissimilar.},
+      arxiv={1812.00543}
+}
+
+@article{Bose2018CompositionalHN,
+      bibtex_show={true},
+      abbr={Workshop},
+      title={Compositional Hard Negatives for Visual Semantic Embeddings via an Adversary},
+      author={A. Bose and Huan Ling and Yanshuai Cao},
+      year={2018},
+      journal={NeurIPS 2018 Workshop on ViGIL},
+      html={https://nips2018vigil.github.io/static/papers/accepted/20.pdf},
+      abstract={Learning high-quality representations for multi-modal data with a shared underlying meaning is a key building block for cross-modal information retrieval. Further, hard negative mining has been shown effective in forcing models to learn discriminaitve features for accurate retrieval. In this paper, we present a new technique for hard negative mining for learning visual-semantic embeddings, with an adversary that is learned in a min-max game with the cross-modal embedding model. The adversary exploits compositionality of images and texts and is able to compose harder negatives through novel combination of objects and regions across different images for a given caption. We find that our approach leads to higher scores across-the-board for all R@K based metrics over the previous state of the art.},
+}
+
+@Article{Cao2018Improving,
+      bibtex_show={true},
+      abbr={ICLR},
+      Title = {Improving GAN Training via Binarized Representation Entropy (BRE) Regularization},
+      Author = {Yanshuai Cao and Gavin Weiguang Ding and Kry Yik-Chau Lui and Ruitong Huang},
+      Journal = {International Conference on Learning Representations},
+      Year = {2018},
+      html = {https://openreview.net/forum?id=BkLhaGZRW},
+      arxiv={1805.03644},
+      code={https://github.com/BorealisAI/bre-gan},
+      abstract={We propose a novel regularizer to improve the training of Generative Adversarial Networks (GANs). The motivation is that when the discriminator D spreads out its model capacity in the right way, the learning signals given to the generator G are more informative and diverse. These in turn help G to explore better and discover the real data manifold while avoiding large unstable jumps due to the erroneous extrapolation made by D. Our regularizer guides the rectifier discriminator D to better allocate its model capacity, by encouraging the binary activation patterns on selected internal layers of D to have a high joint entropy. Experimental results on both synthetic data and real datasets demonstrate improvements in stability and convergence speed of the GAN training, as well as higher sample quality. The approach also leads to higher classification accuracies in semi-supervised learning.},
+      selected={true},
+      preview={bre_gan.png},
+}
+
+@article{wang2018adversarial,
+      bibtex_show={true},
+      abbr={Preprint},
+      title={Adversarial Robustness of Pruned Neural Networks},
+      author={Wang, Luyu and Ding, Gavin Weiguang and Huang, Ruitong and Cao, Yanshuai and Lui, Yik Chau},
+      year={2018},
+      abstract={Deep neural network pruning forms a compressed network by discarding "unimportant" weights or filters. Standard evaluation metrics have shown their remarkable speedup and prediction accuracy in test time, but their adversarial robustness remains unexplored even though it is an important security feature in deployment. We study the robustness of pruned neural networks under adversarial
+attacks. We discover that although pruned models maintain the original accuracy,
+they are more vulnerable to such attacks. We further show that adversarial training improves the robustness of pruned networks. However, it is observed there
+exist trade-offs among compression rate, accuracy and robustness in adversarially trained pruned neural networks. Our analysis suggests that we should pay
+additional attention to robustness in neural network pruning rather than just maintaining the classification accuracy.}
+}
+
+@inproceedings{bose-etal-2018-adversarial,
+      bibtex_show={true},
+      abbr={ACL},
+      title = "Adversarial Contrastive Estimation",
+      author = "Bose*, Avishek Joey  and
+        Ling*, Huan  and
+        Cao*, Yanshuai",
+      booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      month = jul,
+      year = "2018",
+      address = "Melbourne, Australia",
+      publisher = "Association for Computational Linguistics",
+      url = "https://www.aclweb.org/anthology/P18-1094",
+      doi = "10.18653/v1/P18-1094",
+      pages = "1021--1032",
+      arxiv = {1805.03642},
+      html={https://www.aclweb.org/anthology/P18-1094/},
+      abstract = "Learning by contrasting positive and negative samples is a general strategy adopted by many methods. Noise contrastive estimation (NCE) for word embeddings and translating embeddings for knowledge graphs are examples in NLP employing this approach. In this work, we view contrastive learning as an abstraction of all such methods and augment the negative sampler into a mixture distribution containing an adversarially learned sampler. The resulting adaptive sampler finds harder negative examples, which forces the main model to learn a better representation of the data. We evaluate our proposal on learning word embeddings, order embeddings and knowledge graph embeddings and observe both faster convergence and improved results on multiple metrics.",
+}
+
+@phdthesis{Cao_Yanshuai_PhD_thesis,
+      bibtex_show={true},
+      abbr={PhD Thesis},
+      author       = {Cao, Yanshuai}, 
+      title        = {Scaling Gaussian Processes},
+      school       = {University of Toronto},
+      html = {https://tspace.library.utoronto.ca/handle/1807/89683},
+      year         = 2018,
+      selected={true},
+}
+
+
+@article{lui2017implicit,
+      bibtex_show={true},
+      abbr={Workshop},
+      title={Implicit Manifold Learning on Generative Adversarial Networks},
+      author={Lui, Kry Yik Chau and Cao, Yanshuai and Gazeau, Maxime and Zhang, Kelvin Shuangjian},
+      year={2017},
+      arxiv={1710.11260},
+      Journal = {ICML 2017 Workshop on Implicit Models},
+}
+
+@article{CaoAST,
+      bibtex_show={true},
+      abbr={Workshop},
+      Title = {Automatic Selection of t-SNE Perplexity},
+      Author = {Yanshuai Cao and Luyu Wang},
+      Year = {2017},
+      Abstract = {t-Distributed Stochastic Neighbor Embedding (t-SNE) is one of the most widely used dimensionality reduction methods for data visualization, but it has a perplexity hyperparameter that requires manual selection. In practice, proper tuning of t-SNE perplexity requires users to understand the inner working of the method as well as to have hands-on experience. We propose a model selection objective for t-SNE perplexity that requires negligible extra computation beyond that of the t-SNE itself. We empirically validate that the perplexity settings found by our approach are consistent with preferences elicited from human experts across a number of datasets. The similarities of our approach to Bayesian information criteria (BIC) and minimum description length (MDL) are also analyzed.},
+      Journal = {ICML 2017 Workshop on AutoML},
+      Url = {http://arxiv.org/abs/1708.03229},
+      arxiv={1708.03229}
+}
+
+@inproceedings{SabourCFF15,
+bibtex_show={true},
+abbr={ICLR},
+  title     = {Adversarial Manipulation of Deep Representations},
+  author    = {Sabour*, Sara and
+               Cao*, Yanshuai  and
+               Faghri, Fartash and
+               Fleet, David J.},  
+  booktitle = {4th International Conference on Learning Representations},             
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1511.05122},
+  arxiv = {1511.05122},
+  abstract = {We show that the image representations in a deep neural network (DNN) can be
+manipulated to mimic those of other natural images, with only minor, imperceptible perturbations to the original image. Previous methods for generating adversarial images focused on image perturbations designed to produce erroneous class labels. Here we instead concentrate on the internal layers of DNN representations, to produce a new class of adversarial images that differs qualitatively from others. While the adversary is perceptually similar to one image, its internal representation appears remarkably similar to a different image, from a different class and
+bearing little if any apparent similarity to the input. Further, they appear generic
+and consistent with the space of natural images. This phenomenon demonstrates
+the possibility to trick a DNN to confound almost any image with any other chosen
+image, and raises questions about DNN representations, as well as the properties
+of natural images themselves.},
+      code = {https://github.com/fartashf/under_convnet},
+      selected={true},
+      preview={feat_adv.png}
+}
+
+@ARTICLE{tpami15_caoy,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abbr={TPAMI},
+  author = {Cao, Yanshuai and Brubaker, Marcus A and Fleet, David J and Hertzmann, Aaron},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Efficient Optimization for Sparse Gaussian Process Regression}, 
+  year={2015},
+  volume={37},
+  number={12},
+  pages={2415-2427},
+  doi={10.1109/TPAMI.2015.2424873},
+  html={https://ieeexplore.ieee.org/document/7089279},
+  code = {https://github.com/yanshuaicao/gp_cholqr},
+  abstract={We propose an efficient optimization algorithm to select a subset of training data as the inducing set for sparse Gaussian process regression. Previous methods either use different objective functions for inducing set and hyperparameter selection, or else optimize the inducing set by gradient-based continuous optimization. The former approaches are harder to interpret and suboptimal, whereas the latter cannot be applied to discrete input domains or to kernel functions that are not differentiable with respect to the input. The algorithm proposed in this work estimates an inducing set and the hyperparameters using a single objective. It can be used to optimize either the marginal likelihood or a variational free energy. Space and time complexity are linear in training set size, and the algorithm can be applied to large regression problems on discrete or continuous domains. Empirical evaluation shows state-of-art performance in discrete cases, competitive prediction results as well as a favorable trade-off between training and test time in continuous cases.},
+  }
+
+@article{cao2015transductive,
+bibtex_show={true},
+abbr={Workshop},
+  title={Transductive Log Opinion Pool of Gaussian Process Experts},
+  author={Cao, Yanshuai and Fleet, David J},
+  journal={NIPS2015 Workshop on Nonparametric Methods for Large Scale Representation Learning},
+  year={2015},
+  abstract={We introduce a framework for analyzing transductive combination of Gaussian
+process (GP) experts, where independently trained GP experts are combined in a
+way that depends on test point location, in order to scale GPs to big data. The
+framework provides some theoretical justification for the generalized product of
+GP experts (gPoE-GP) which was previously shown to work well in practice [2, 3]
+but lacks theoretical basis. Based on the proposed framework, an improvement
+over gPoE-GP is introduced and empirically validated.},
+      arxiv={1511.07551}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{cao2014generalized,
+bibtex_show={true},
+abbr={Workshop},
+  title={Generalized Product of Experts for Automatic and Principled Fusion of Gaussian Process Predictions},
+  author={Cao, Yanshuai and Fleet, David J},
+  journal={Modern Nonparametrics 3: Automating the Learning Pipeline Workshop at NIPS},
+  year={2014},
+  abstract = {In this work, we propose a generalized product of experts (gPoE) framework for
+combining the predictions of multiple probabilistic models. We identify four desirable properties that are important for scalability, expressiveness and robustness,
+when learning and inferring with a combination of multiple models. Through
+analysis and experiments, we show that gPoE of Gaussian processes (GP) have
+these qualities, while no other existing combination schemes satisfy all of them
+at the same time. The resulting GP-gPoE is highly scalable as individual GP experts can be independently learned in parallel; very expressive as the way experts
+are combined depends on the input rather than fixed; the combined prediction is
+still a valid probabilistic model with natural interpretation; and finally robust to
+unreliable predictions from individual experts.},
+      arxiv={1410.7827}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{NIPS2013_46922a08,
+bibtex_show={true},
+abbr={NeurIPS},
+ author = {Cao, Yanshuai and Brubaker, Marcus A and Fleet, David J and Hertzmann, Aaron},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {C. J. C. Burges and L. Bottou and M. Welling and Z. Ghahramani and K. Q. Weinberger},
+ pages = {1097--1105},
+ publisher = {Curran Associates, Inc.},
+ title = {Efficient Optimization for Sparse Gaussian Process Regression},
+ html = {https://papers.nips.cc/paper/2013/hash/46922a0880a8f11f8f69cbb52b1396be-Abstract.html},
+ arxiv= {1310.6007},
+ volume = {26},
+ year = {2013},
+ abstract = {We propose an efficient discrete optimization algorithm for selecting a subset of training data to induce sparsity for Gaussian process regression. The algorithm estimates this inducing set and the hyperparameters using a single objective, either the marginal likelihood or a variational free energy. The space and time complexity are linear in the training set size, and the algorithm can be applied to large regression problems on discrete or continuous domains. Empirical evaluation shows state-of-art performance in the discrete case and competitive results in the continuous case.},
+ code = {https://github.com/yanshuaicao/gp_cholqr},
+ supp = {https://papers.nips.cc/paper/2013/file/46922a0880a8f11f8f69cbb52b1396be-Supplemental.zip},
+selected={true},
+preview={cholqr.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+--- patents
+
+@misc{avishek2021method,
+      bibtex_show={true},
+      abbr={Patent},
+      title={Method and device for generative adversarial network training},
+      author={Avishek, BOSE and Yanshuai, CAO},
+      year={2021},
+      month=jul # "~13",
+      note={US Patent 11,062,179}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@misc{ding2023method,
+      bibtex_show={true},
+      abbr={Patent},
+      title={Method and device for conducting measurements for an N-dimensional data structure},
+      author={Ding, Weiguang and Huang, Ruitong and Wang, Luyu and Yanshuai, CAO},
+      year={2023},
+      month=jan # "~10",
+      note={US Patent 11,551,041}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@misc{wang2020system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for adaptive data visualization},
+      author={Wang, Luyu and Yanshuai, CAO},
+      year={2020},
+      month=aug # "~11",
+      note={US Patent 10,739,955}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@misc{yanshuai2024system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for improved neural network training},
+      author={Yanshuai, CAO and Lui, Yik Chau and Ding, Weiguang and Huang, Ruitong},
+      year={2024},
+      month=aug # "~6",
+      note={US Patent 12,056,605}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@misc{amiri2020systems,
+      bibtex_show={true},
+      abbr={Patent},
+      title={Systems and methods for cyberbot network detection},
+      author={Amiri, Ashkan and Croll, Bryce and Cory, FONG and Sethurajan, Athinthra Krishnaswamy and Yadav, Vikash and Chiang, Sylvester King Chun and Zhengyi, QIN and Smyth, Cathal and Lui, Yik Chau and Yanshuai, CAO and others},
+      year={2020},
+      month=oct # "~27",
+      note={US Patent 10,819,724}
+}
+
+@misc{smyth2020systems,
+      bibtex_show={true},
+      abbr={Patent},
+      title={Systems and methods for malicious code detection},
+      author={Smyth, Cathal and Cory, FONG and Lui, Yik Chau and Yanshuai, CAO},
+      year={2020},
+      month=jun # "~16",
+      note={US Patent 10,685,284}
+}
+
+@misc{ding2020system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for reproducible machine learning},
+      author={Ding, Weiguang and Yanshuai, CAO},
+      year={2020},
+      month=oct # "~13",
+      note={US Patent 10,802,822}
+}
+
+@misc{yanshuai2021system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System, methods, and devices for visual construction of operations for data querying},
+      author={Yanshuai, CAO and Wang, Luyu},
+      year={2021},
+      month=aug # "~3",
+      note={US Patent 11,080,292}
+}
+
+@misc{wang2023robust,
+      bibtex_show={true},
+      abbr={Patent},
+      title={Robust pruned neural networks via adversarial training},
+      author={Wang, Luyu and Ding, Weiguang and Huang, Ruitong and Yanshuai, CAO and Lui, Yik Chau},
+      year={2023},
+      month=jan # "~24",
+      note={US Patent 11,562,244}
+}
+
+@misc{yanshuai2023system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for improving deep neural network performance},
+      author={Yanshuai, CAO and Huang, Ruitong and Wen, Junfeng},
+      year={2023},
+      month=sep # "~12",
+      note={US Patent 11,755,916}
+}
+
+@misc{yanshuai2022system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for cross-domain transferable neural coherence model},
+      author={Yanshuai, CAO and SAGHIR, Hamidreza and KANG, Jin Sung and Long, Teng and CHEUNG, Jackie CK and others},
+      year={2022},
+      month=mar # "~8",
+      note={US Patent 11,270,072}
+}
+
+@misc{yanshuai2023system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for machine learning with long-range dependency},
+      author={Yanshuai, CAO and Xu, Peng},
+      year={2023},
+      month=sep # "~19",
+      note={US Patent 11,763,129}
+}
+
+@misc{xu2023system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for controllable machine text generation architecture},
+      author={Xu, Peng and Yanshuai, CAO and Cheung, Jackie CK},
+      year={2023},
+      month=sep # "~19",
+      note={US Patent 11,763,100}
+}
+
+@misc{gong2024system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for machine learning architecture for partially-observed multimodal data},
+      author={Gong, Yu and He, Jiawei and Durand, Thibaut and Nawhal, Megha and Yanshuai, CAO and Gregory, MORI and Hajimirsadeghi, Seyed Hossein},
+      year={2024},
+      month=jul # "~9",
+      note={US Patent 12,033,083}
+}
+
+@misc{ruizhi2023system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for machine learning architecture with variational hyper-RNN},
+      author={Ruizhi, DENG and Yanshuai, CAO and Chang, Bo and Brubaker, Marcus},
+      year={2023},
+      month=mar # "~28",
+      note={US Patent 11,615,305}
+}
+
+@misc{long2024system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for machine learning architecture with variational autoencoder pooling},
+      author={Long, Teng and Yanshuai, CAO and Cheung, Jackie CK},
+      year={2024},
+      month=feb # "~27",
+      note={US Patent 11,914,955}
+}
+
+@misc{lui2021system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for testing machine learning},
+      author={Lui, Yik Chau and Yanshuai, CAO},
+      year={2021},
+      month=oct # "~14",
+      note={US Patent App. 17/227,086}
+}
+
+@misc{yanshuai2022system,
+      bibtex_show={true},
+      abbr={Patent},
+      title={System and method for transferable natural language interface},
+      author={Yanshuai, CAO and Xu, Peng and Keyi, TANG and Yang, Wei and Wenjie, ZI and Long, Teng and Cheung, Jackie Chit Kit and Huang, Chenyang and Lili, MOU and Shahidi, Hamidreza and others},
+      year={2022},
+      month=apr # "~28",
+      note={US Patent App. 17/508,914}
+}
+
+@misc{keyi2024transformer,
+      bibtex_show={true},
+      abbr={Patent},
+      title={Transformer-based architecture for density ratio estimation},
+      author={Keyi, TANG and Yanshuai, CAO},
+      year={2024},
+      month=may # "~9",
+      note={US Patent App. 18/491,417}
 }

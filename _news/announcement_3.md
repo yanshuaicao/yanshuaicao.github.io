@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-12-01 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+[EBBS: An Ensemble with Bi-Level Beam Search for Zero-Shot Machine Translation](https://arxiv.org/abs/2403.00144) with Yuqiao Wen and others is accepted by AAAI 2025!
