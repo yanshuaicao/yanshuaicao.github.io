@@ -33,7 +33,7 @@ We developed a novel framework for evaluating generative models through the lens
 We developed a bootstrapping approach using mutual information regularization to improve the modeling of long-range dependencies in sequential models.
 
 [Paper](http://proceedings.mlr.press/v108/cao20a.html){:target="_blank"} |
-[Code](https://github.com/BorealisAI/long-range-MI){:target="_blank"}
+[Code](https://github.com/BorealisAI/BMI){:target="_blank"}
 
 ### Improving GAN Training via Binarized Representation Entropy (BRE)
 <div class="row mt-3">
@@ -59,7 +59,7 @@ A novel regularization approach for GAN training that stabilizes learning by enc
 A framework for learning controllable text representations without explicit supervision, enabling better control over generated content while maintaining naturalness.
 
 [Paper](https://arxiv.org/abs/1905.11975){:target="_blank"} |
-[Code](https://github.com/BorealisAI/controllable-text-vae){:target="_blank"}
+[Code](https://github.com/BorealisAI/CP-VAE){:target="_blank"}
 
 ### Preventing Posterior Collapse in Sequence VAEs with Pooling
 We introduced a novel pooling mechanism for sequence VAEs that helps prevent the common problem of posterior collapse while maintaining model expressiveness.
