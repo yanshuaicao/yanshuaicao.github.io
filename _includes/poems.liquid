@@ -1,13 +1,15 @@
 <div class="grid-item">
   <div class="card hoverable">
-    {% if poem.redirect -%}
-    <a href="{{ poem.redirect }}">
-    {%- else -%}
-    <a href="{{ poem.url | relative_url }}">
-    {%- endif %}
-      {% if poem.img %}
-      <img src="{{ poem.img | relative_url }}" alt="poem thumbnail">
-      {% endif %}
+    <div class="card-content">
+      {% if poem.redirect -%}
+      <a href="{{ poem.redirect }}">
+      {%- else -%}
+      <a href="{{ poem.url | relative_url }}">
+      {%- endif %}
+        {% if poem.img %}
+        <img src="{{ poem.img | relative_url }}" alt="poem thumbnail">
+        {% endif %}
+      </a>
       <div class="card-body">
         <h2 class="card-title">{{ poem.title }}</h2>
         <p class="card-text">{{ poem.description }}</p>
@@ -17,6 +19,6 @@
           {% endif %}
         </div>
       </div>
-    </a>
+    </div>
   </div>
-</div> 
+</div>
