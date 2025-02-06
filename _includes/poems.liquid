@@ -1,24 +1,35 @@
-<div class="grid-item">
-  <div class="card hoverable">
-    <div class="card-content">
-      {% if poem.redirect -%}
-      <a href="{{ poem.redirect }}">
-      {%- else -%}
-      <a href="{{ poem.url | relative_url }}">
-      {%- endif %}
-        {% if poem.img %}
-        <img src="{{ poem.img | relative_url }}" alt="poem thumbnail">
-        {% endif %}
-      </a>
+<div class="col">
+  <a href="{% if poem.redirect %}{{ poem.redirect }}{% else %}{{ poem.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      {% if poem.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=poem.img
+          sizes = "250px"
+          alt="poem thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ poem.title }}</h2>
         <p class="card-text">{{ poem.description }}</p>
         <div class="row ml-1 mr-1 p-0">
-          {% if poem.category %}
-          <div class="category-tag">{{ poem.category }}</div>
+          {% if poem.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ poem.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+              {% if poem.github_stars %}
+                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                  <i class="fa-solid fa-star"></i>
+                  <span id="{{ poem.github_stars }}-stars"></span>
+                </span>
+              {% endif %}
+            </div>
           {% endif %}
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
