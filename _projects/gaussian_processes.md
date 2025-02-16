@@ -21,7 +21,7 @@ Improving GAN Training via Binarized Representation Entropy (BRE) Regularization
 
 My PhD thesis at University of Toronto focused on developing methods to scale Gaussian Process models to large datasets. The work combines theoretical insights with practical algorithms for making GPs more computationally efficient while maintaining their powerful probabilistic modeling capabilities.
 
-[Publication Details](/publications/#Cao_Yanshuai_PhD_thesis){:target="_blank"}
+[Publication Details](/publications/#cao_yanshuai_gp_thesis){:target="_blank"}
 
 #### Efficient Optimization for Sparse Gaussian Process Regression
 A key contribution was developing an efficient optimization algorithm for selecting inducing points in sparse Gaussian Process regression. The method achieves linear time and space complexity while maintaining state-of-the-art performance.

@@ -22,7 +22,7 @@ This project encompasses research in two key areas of adversarial machine learni
 
 A foundational investigation revealing how adversarial perturbations can manipulate internal neural network representations while maintaining perceptual similarity. This work demonstrated that DNNs can be tricked to confound almost any image with any other chosen image.
 
-[Publication Details](/publications/#SabourCFF15){:target="_blank"}
+[Publication Details](/publications/#sabour15){:target="_blank"}
 
 ### Adversarial Robustness of Pruned Neural Networks
 An investigation into how network pruning affects adversarial robustness. We discovered that while pruned models maintain accuracy, they become more vulnerable to adversarial attacks. The work reveals important trade-offs between model compression, accuracy, and robustness.
@@ -57,7 +57,7 @@ We developed an adversarial approach to negative mining for contrastive learning
 ### Compositional Hard Negatives for Visual-Semantic Embeddings
 An adversarial approach to generating hard negative examples by composing novel combinations of objects and regions across different images. This technique improved the learning of visual-semantic embeddings.
 
-[Publication Details](/publications/#Bose2018CompositionalHN){:target="_blank"}
+[Publication Details](/publications/#bose2018compositional){:target="_blank"}
 
 ---
 
