@@ -60,3 +60,15 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+<style>
+  /* Increase vertical spacing between poem cards */
+  .row > .col {
+    margin-bottom: 3rem !important;  /* Increase bottom margin */
+  }
+
+  /* Ensure consistent spacing for the last row */
+  .row:last-child > .col {
+    margin-bottom: 2rem !important;
+  }
+</style>
