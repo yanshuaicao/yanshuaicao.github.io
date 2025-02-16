@@ -40,10 +40,13 @@ horizontal: false
 {% else %}
 
 <!-- Display poetry without categories -->
+
 {% assign sorted_poetry = site.poetry | sort: "date" | reverse %}
 
   <!-- Generate cards for each project -->
+
 {% if page.horizontal %}
+
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for poem in sorted_poetry %}
