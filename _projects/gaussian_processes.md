@@ -21,23 +21,22 @@ Improving GAN Training via Binarized Representation Entropy (BRE) Regularization
 
 My PhD thesis at University of Toronto focused on developing methods to scale Gaussian Process models to large datasets. The work combines theoretical insights with practical algorithms for making GPs more computationally efficient while maintaining their powerful probabilistic modeling capabilities.
 
-[View Thesis](https://tspace.library.utoronto.ca/handle/1807/89683){:target="_blank"}
+[Publication Details](/publications/#Cao_Yanshuai_PhD_thesis){:target="_blank"}
 
 #### Efficient Optimization for Sparse Gaussian Process Regression
 A key contribution was developing an efficient optimization algorithm for selecting inducing points in sparse Gaussian Process regression. The method achieves linear time and space complexity while maintaining state-of-the-art performance.
 
-[Paper](https://papers.nips.cc/paper/2013/hash/46922a0880a8f11f8f69cbb52b1396be-Abstract.html){:target="_blank"} \| 
-[Code](https://github.com/yanshuaicao/gp_cholqr){:target="_blank"}
+[Publication Details](/publications/#tpami15_caoy){:target="_blank"}
 
 #### Generalized Product of Experts for GP Fusion
 We proposed a generalized product of experts (gPoE) framework for combining predictions of multiple Gaussian Process models. The method is highly scalable as individual GP experts can be trained in parallel, while maintaining expressiveness and robustness.
 
-[Paper](https://arxiv.org/abs/1410.7827){:target="_blank"}
+[Publication Details](/publications/#cao2014generalized){:target="_blank"}
 
 #### Transductive Log Opinion Pool of GP Experts
 Building on the gPoE work, we developed a theoretical framework for analyzing transductive combinations of GP experts. This provides theoretical justification for the empirical success of gPoE while suggesting improvements.
 
-[Paper](https://arxiv.org/abs/1511.07551){:target="_blank"}
+[Publication Details](/publications/#cao2015transductive){:target="_blank"}
 
 ### Impact
 

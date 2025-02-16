@@ -157,6 +157,7 @@
       primaryClass={cs.CL},
       abstract = "Semantic parsing datasets are expensive to collect. Moreover, even the questions pertinent to a given domain, which are the input of a semantic parsing system, might not be readily available, especially in cross-domain semantic parsing. This makes data augmentation even more challenging. Existing methods to synthesize new data use hand-crafted or induced rules, requiring substantial engineering effort and linguistic expertise to achieve good coverage and precision, which limits the scalability. In this work, we propose a purely neural approach of data augmentation for semantic parsing that completely removes the need for grammar engineering while achieving higher semantic parsing accuracy. Furthermore, our method can synthesize in the zero-shot setting, where only a new domain schema is available without any input-output examples of the new domain. On the Spider cross-domain text-to-SQL semantic parsing benchmark, we achieve the state-of-the-art performance on the development set (77.2% accuracy) using our zero-shot augmentation.",
       url={https://arxiv.org/abs/2112.02212}, 
+      preview={hier_syn_sempar.png}
 }
 
 @inproceedings{norouzi-etal-2021-code,
@@ -297,7 +298,7 @@
       html = {http://proceedings.mlr.press/v119/huang20c.html},
       abstract = {The field of deep generative modeling has succeeded in producing astonishingly realistic-seeming images and audio, but quantitative evaluation remains a challenge. Log-likelihood is an appealing metric due to its grounding in statistics and information theory, but it can be challenging to estimate for implicit generative models, and scalar-valued metrics give an incomplete picture of a model's quality. In this work, we propose to use rate distortion (RD) curves to evaluate and compare deep generative models. While estimating RD curves is seemingly even more computationally demanding than log-likelihood estimation, we show that we can approximate the entire RD curve using nearly the same computations as were previously used to achieve a single log-likelihood estimate. We evaluate lossy compression rates of VAEs, GANs, and adversarial autoencoders (AAEs) on the MNIST and CIFAR10 datasets. Measuring the entire RD curve gives a more complete picture than scalar-valued metrics, and we arrive at a number of insights not obtainable from log-likelihoods alone.},
       arxiv={2008.06653},
-      code={https://github.com/huangsicong/rate_distortion},
+      code={https://github.com/BorealisAI/rate_distortion},
       selected={true},
       preview={rd_eval.png},
 }
@@ -440,7 +441,7 @@ additional attention to robustness in neural network pruning rather than just ma
       abstract = "Learning by contrasting positive and negative samples is a general strategy adopted by many methods. Noise contrastive estimation (NCE) for word embeddings and translating embeddings for knowledge graphs are examples in NLP employing this approach. In this work, we view contrastive learning as an abstraction of all such methods and augment the negative sampler into a mixture distribution containing an adversarially learned sampler. The resulting adaptive sampler finds harder negative examples, which forces the main model to learn a better representation of the data. We evaluate our proposal on learning word embeddings, order embeddings and knowledge graph embeddings and observe both faster convergence and improved results on multiple metrics.",
 }
 
-@phdthesis{Cao_Yanshuai_PhD_thesis,
+@article{Cao_Yanshuai_PhD_thesis,
       bibtex_show={true},
       abbr={PhD Thesis},
       author       = {Cao, Yanshuai}, 
@@ -449,6 +450,7 @@ additional attention to robustness in neural network pruning rather than just ma
       html = {https://tspace.library.utoronto.ca/handle/1807/89683},
       year         = 2018,
       selected={true},
+      abstract={We explore ways to scale Gaussian processes (GP) to large datasets. Two methods with different theoretical and practical motivations are proposed. The first method solves the open problem of efficient discrete inducing set selection in the context of inducing point based approximation to full GPs. When inducing points need to be chosen from the training set, the proposed method is the only principled approach to date for joint tuning of inducing set and GP hyperparameters while scaling linearly in the number of training set size during learning. Empirically it achieves a trade-off between speed and accuracy that is comparable to other state-of-arts inducing point GP methods. The second method is a novel framework for building flexible probabilistic prediction models based on GPs that is simple to parallelize and highly scalable. Referred to as transductive fusion, this second approach learns separate GP experts whose predictions are combined in ways that depend on test point locations. A number of new models are proposed in this new framework. Learning and inference in these new models are straightforwardly parallel, and predictive accuracy is shown to be satisfactory empirically.}
 }
 
 

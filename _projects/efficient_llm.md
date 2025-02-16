@@ -22,9 +22,7 @@ This project focuses on developing novel methods to make training and deploying 
 
 We discovered that low-rank adapters (LoRA) can be viewed as random projection-based gradient compression. Based on this insight, we developed Flora, which achieves high-rank updates while maintaining the memory efficiency of LoRA. This enables training multi-billion parameter LLMs on a single GPU.
 
-[Paper](https://arxiv.org/abs/2402.03293){:target="_blank"} | 
-[Code](https://github.com/BorealisAI/flora-opt){:target="_blank"} |
-[Blog](https://rbcborealis.com/research-blogs/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora/){:target="_blank"}
+[Publication Details](/publications/#hao2024flora){:target="_blank"}
 
 ### NeuZip: Dynamic Neural Network Compression
 <div class="row mt-3">
@@ -35,12 +33,12 @@ We discovered that low-rank adapters (LoRA) can be viewed as random projection-b
 
 We introduced NeuZip, a novel weight compression scheme based on the entropy of floating-point numbers in neural networks. This enables memory-efficient training and inference without performance degradation, reducing the memory footprint of Llama-3 8B from 31GB to under 16GB.
 
-[Paper](https://arxiv.org/abs/2410.20650){:target="_blank"}
+[Publication Details](/publications/#hao2024neuzip){:target="_blank"}
 
 ### Ginger: Efficient Curvature Approximation
 A novel approach to approximate curvature information in neural networks with linear complexity, enabling more efficient optimization for large models while maintaining convergence guarantees.
 
-[Paper](https://arxiv.org/abs/2402.03293){:target="_blank"}
+[Publication Details](/publications/#hao2024gingerefficientcurvatureapproximation){:target="_blank"}
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: poetry
+title: 颜辞
 permalink: /poetry/
-description: A growing collection of my poetry.
+description: 艳阳风骤起， 云静百帆飞。 入世破千浪， 随波出世归。
 nav: true
-nav_order: 3
-display_categories: []
+nav_order: 5
+display_categories:
 horizontal: false
 ---
 
@@ -18,7 +18,7 @@ horizontal: false
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_poetry = site.poetry | where: "category", category %}
-  {% assign sorted_poetry = categorized_poetry | sort: "importance" %}
+  {% assign sorted_poetry = categorized_poetry | sort: "date" | reverse %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -40,13 +40,10 @@ horizontal: false
 {% else %}
 
 <!-- Display poetry without categories -->
-
-{% assign sorted_poetry = site.poetry | sort: "importance" %}
+{% assign sorted_poetry = site.poetry | sort: "date" | reverse %}
 
   <!-- Generate cards for each project -->
-
 {% if page.horizontal %}
-
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for poem in sorted_poetry %}

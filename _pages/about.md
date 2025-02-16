@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I build AI products that generate value and do fundamental research.
+I build AI products that generate value for others, and conduct fundamental research and write classical style Chinese poems as creative outlets for myself.
 
-At RBC Borealis, I run teams that build AI solutions and am responsible for the profit they generate. My job is simple: 1) find ways AI can create or optimize value, 2) scale the team, tech, and business to make it happen.
+At RBC Borealis, my job is "simple": 1) find ways AI can create or optimize value, 2) scale teams, technology, and business to make it happen.
 
 Most of my product work is confidential, so this site focuses on research and projects that I can share.
 

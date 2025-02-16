@@ -21,8 +21,7 @@ This project encompasses research on deep generative models, focusing on improvi
 </div>
 We developed a novel framework for evaluating generative models through the lens of lossy compression, providing a principled way to measure model quality beyond traditional metrics.
 
-[Paper](https://proceedings.mlr.press/v119/huang20c.html){:target="_blank"} | 
-[Code](https://github.com/BorealisAI/rate_distortion){:target="_blank"}
+[Publication Details](/publications/#pmlr-v119-huang20c){:target="_blank"}
 
 ### Better Long-Range Dependency By Bootstrapping A Mutual Information Regularizer
 <div class="row mt-3">
@@ -32,8 +31,7 @@ We developed a novel framework for evaluating generative models through the lens
 </div>
 We developed a bootstrapping approach using mutual information regularization to improve the modeling of long-range dependencies in sequential models.
 
-[Paper](http://proceedings.mlr.press/v108/cao20a.html){:target="_blank"} |
-[Code](https://github.com/BorealisAI/BMI){:target="_blank"}
+[Publication Details](/publications/#pmlr-v108-cao20a){:target="_blank"}
 
 ### Improving GAN Training via Binarized Representation Entropy (BRE)
 <div class="row mt-3">
@@ -43,8 +41,8 @@ We developed a bootstrapping approach using mutual information regularization to
 </div>
 A novel regularization approach for GAN training that stabilizes learning by encouraging better capacity allocation in the discriminator through entropy maximization of binary activation patterns.
 
-[Paper](https://openreview.net/forum?id=BkLhaGZRW){:target="_blank"} | 
-[Code](https://github.com/BorealisAI/bre-gan){:target="_blank"}
+[Publication Details](/publications/#Cao2018Improving){:target="_blank"}
+
 
 ---
 
@@ -58,18 +56,17 @@ A novel regularization approach for GAN training that stabilizes learning by enc
 </div>
 A framework for learning controllable text representations without explicit supervision, enabling better control over generated content while maintaining naturalness.
 
-[Paper](https://arxiv.org/abs/1905.11975){:target="_blank"} |
-[Code](https://github.com/BorealisAI/CP-VAE){:target="_blank"}
+[Publication Details](/publications/#pmlr-v119-xu20a){:target="_blank"}
 
 ### Preventing Posterior Collapse in Sequence VAEs with Pooling
 We introduced a novel pooling mechanism for sequence VAEs that helps prevent the common problem of posterior collapse while maintaining model expressiveness.
 
-[Paper](https://arxiv.org/abs/1911.03976){:target="_blank"} 
+[Publication Details](/publications/#long2019preventing){:target="_blank"}
 
 ### Variational Hyper RNN for Sequence Modeling
 A hierarchical RNN architecture with variational inference that better captures long-range dependencies and hierarchical structure in sequential data.
 
-[Paper](https://arxiv.org/abs/2002.10501){:target="_blank"} 
+[Publication Details](/publications/#deng2020variational){:target="_blank"}
 
 ---
 
