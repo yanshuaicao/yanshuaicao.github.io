@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yanshuai Cao # the website title (if blank, full name will be used instead)
+title: Yanshuai Cao 曹颜帅 # the website title (if blank, full name will be used instead)
 first_name: Yanshuai
 middle_name:
 last_name: Cao
 chinese_name: 曹颜帅
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yanshuai Cao's Academic Site; 曹颜帅个人学术网站; machine learning, natural language processing, deep learning; 机器学习, 自然语言处理, 深度学习.
+  Yanshuai Cao's Personal Site; 曹颜帅个人网站; GenAI, LLM, machine learning, natural language processing, deep learning; 机器学习, 自然语言处理, 深度学习. 诗词。
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
