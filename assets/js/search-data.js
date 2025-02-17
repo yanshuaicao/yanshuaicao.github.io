@@ -70,15 +70,7 @@ ninja.data = [{
           window.open("https://yanshuaicao.substack.com/p/a-rare-treasure-in-the-age-of-llm", "_blank");
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-i-m-promoted-to-senior-director-research-rbc-borealis-tada",
+    },{id: "news-i-m-promoted-to-senior-director-research-rbc-borealis-tada",
           title: 'I’m promoted to Senior Director, Research @ RBC Borealis. :tada:',
           description: "",
           section: "News",},{id: "news-i-m-awarded-the-distinguished-engineer-title-by-rbc-tada",
