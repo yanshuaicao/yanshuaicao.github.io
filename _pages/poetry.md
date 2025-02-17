@@ -64,11 +64,11 @@ horizontal: false
 <style>
   /* Increase vertical spacing between poem cards */
   .row > .col {
-    margin-bottom: 3rem !important;  /* Increase bottom margin */
+    margin-bottom: 2rem !important;  /* Reduced from 3rem to 2rem */
   }
 
   /* Ensure consistent spacing for the last row */
   .row:last-child > .col {
-    margin-bottom: 2rem !important;
+    margin-bottom: 1.5rem !important;  /* Reduced from 2rem to 1.5rem */
   }
 </style>
