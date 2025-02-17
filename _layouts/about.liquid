@@ -41,11 +41,7 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
-<<<<<<< HEAD
-    {% if page.news and site.announcements.enabled %}
-=======
     {% if page.announcements and page.announcements.enabled %}
->>>>>>> upstream/main
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
@@ -53,11 +49,7 @@ layout: default
     {% endif %}
 
     <!-- Latest posts -->
-<<<<<<< HEAD
-    {% if site.latest_posts.enabled %}
-=======
     {% if page.latest_posts and page.latest_posts.enabled %}
->>>>>>> upstream/main
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -81,13 +73,8 @@ layout: default
       </div>
     {% endif %}
 
-<<<<<<< HEAD
-    {% if site.newsletter.enabled and site.footer_fixed %}
-      {% include scripts/newsletter.liquid center=true %}
-=======
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
->>>>>>> upstream/main
     {% endif %}
   </article>
 </div>
