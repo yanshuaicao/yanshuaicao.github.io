@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://yanshuaicao-new.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yanshuaicao-new.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-02-17T00:27:46+00:00</updated><id>https://yanshuaicao-new.github.io/feed.xml</id><title type="html">Yanshuai Cao 曹颜帅</title><subtitle>Yanshuai Cao&apos;s Personal Site; 曹颜帅个人网站; GenAI, LLM, machine learning, natural language processing, deep learning; 机器学习, 自然语言处理, 深度学习. 诗词。 </subtitle><entry><title type="html">a post with image galleries</title><link href="https://yanshuaicao-new.github.io/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries"/><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/photo-gallery</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p> <h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p> <hr/> <h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2> <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started"> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/> </a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt=""/> </a> <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt=""/> </a> <div> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt=""/> </a> </div> </div> <hr/> <h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/> </a> </div> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg"/> </a> </div> <hr/> <h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2> <p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">Pre-training multi-billion parameter LLMs on a single GPU with Flora - RBC Borealis</title><link href="https://yanshuaicao-new.github.io/blog/2024/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora-rbc-borealis/" rel="alternate" type="text/html" title="Pre-training multi-billion parameter LLMs on a single GPU with Flora - RBC Borealis"/><published>2024-06-19T00:00:00+00:00</published><updated>2024-06-19T00:00:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora---rbc-borealis</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora-rbc-borealis/"><![CDATA[<p>By using this website, you agree to our  Privacy Policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                            Research Blog
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://yanshuaicao-new.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yanshuaicao-new.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-02-17T00:34:15+00:00</updated><id>https://yanshuaicao-new.github.io/feed.xml</id><title type="html">Yanshuai Cao 曹颜帅</title><subtitle>Yanshuai Cao&apos;s Personal Site; 曹颜帅个人网站; GenAI, LLM, machine learning, natural language processing, deep learning; 机器学习, 自然语言处理, 深度学习. 诗词。 </subtitle><entry><title type="html">Pre-training multi-billion parameter LLMs on a single GPU with Flora - RBC Borealis</title><link href="https://yanshuaicao-new.github.io/blog/2024/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora-rbc-borealis/" rel="alternate" type="text/html" title="Pre-training multi-billion parameter LLMs on a single GPU with Flora - RBC Borealis"/><published>2024-06-19T00:00:00+00:00</published><updated>2024-06-19T00:00:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora---rbc-borealis</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora-rbc-borealis/"><![CDATA[<p>By using this website, you agree to our  Privacy Policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                            Research Blog
                         Jun. 19, 2024Y. Hao, Y. Cao, L. Mou*Denotes Equal Contribution
                     Y. Hao, Y. Cao, L. Mou                        (06/1).
                     Pre-training multi-billion parameter LLMs on a single GPU with Flora. Borealis AI.
@@ -7,734 +7,82 @@
             
                 Share
             Flora dramatically decreases the GPU memory needed to pre-train and fine-tune networks, without compromising speed or performance (figure 1). Depending on the context it can (i) significantly increase the size of the largest model that can be trained on a single GPU, (ii) reduce the number of GPUs needed to train models that exceed this limit, or (iii) incorporate updates from more data examples in a single pass (speeding up training). Using Flora is straightforward; in PyTorch, it simply replaces the existing optimizer. With Flora, it is possible to pre-train a 3B billion parameter LLM with a token batch size of 4096 on a single consumer grade GPU with 12 GB memory RTX-3060.The modern era of deep learning was kickstarted by Krizhevsky et al. (2012) who trained AlexNet (a 62.3 million parameter model) on two GTX-580 GPUs with 6GB of combined GPU memory. In the immediately following years, rapid increases in GPU speed and memory meant that cutting-edge research required only modest resources. However, newer models contain billions of parameters and can require hundreds or thousands of GPUs to train in a practical time frame. Consequently, the ability to pre-train these models rests in the hands of the few; most practitioners can only fine-tune models in a tiny low-rank subspace of the full solution using methods like LoRA.Flora partially restores the balance of power by dramatically reducing the GPU memory requirements of both pre-training and fine-tuning:Pre-training: Flora permits the training of much larger models on a single GPU without sacrificing performance or speed; for example, it becomes possible to train a 3B or 7B parameter LLM with a token batch size of 4096 with less than 12 and 24 GB GPU memory respectively, available even with consumer grade GPUs. This is 50–100 times larger than AlexNet but requires only two to four times the memory.Fine-tuning: A common approach to fine-tuning is low-rank adaptation (LoRA), which improves efficiency by updating a low-rank subspace of the full solution. Flora uses less GPU memory than LoRA and can fine-tune the full solution, yielding better performance. Moreover, benchmarks show that training speed is up to 25% faster than LoRA.Figure 1: Flora performance. Flora uses less memory (first row) and yields better performance (second row) than contemporary methods in both pre-training (first column) and fine-tuning (second column).In principle being able to train a model on a single GPU facilitates data parallelism; different batches can be processed independently on different GPUs. For very large models that still don’t fit onto a single GPU, less memory consumption allows us to divide the model across fewer GPUs. For smaller models, Flora allows us to train with larger batch sizes, or to accumulate gradients from larger subsets of the batch in a single pass, speeding up training.Given that Flora reduces the GPU memory requirements for training large models, is it now possible to pre-train one’s own state-of-the-art LLM on consumer GPUs? Unfortunately, scaling laws for LLMs imply that we must train with a vast corpus, which is still impractically time-consuming without parallelizing across many GPUs, even if the memory aspect is solved. One potential path forward is domain-adapted pre-training Gurangan et al. (2020), in which we continue to pre-train an open source with data from a specialized domain (e.g., as in NVIDIA’s ChipNeMo). Combined with Flora, this drastically lowers the barrier to building one’s own pre-trained LLMs on large private-domain corpora.The structure of this blog is as follows. First, we show how to incorporate Flora into code. Second, we give a high-level overview of how Flora works. Third, we provide benchmark training results. Finally, we compare Flora to the subsequent and closely related GaLore method.There are implementations of Flora for both PyTorch and JAX. Further information about both can be found via the Flora repo.To install Flora for PyTorch, use:To incorporate Flora into your code, simply import the package and replace the PyTorch optimizer with the Flora optimizer and the Hugging Face accelerator class with the Flora accelerator:To install Flora for JAX, use:To incorporate Flora into your code, simply import from the package:which works as an in-place replacement of Optax’s optimizers.Flora linearly projects the gradients into a random low-dimensional subspace. The optimizer states (e.g., the momentum) are stored in this subspace and hence do not occupy much memory. When performing weight updates, the optimizer states are projected back up to the original space.Many optimizer update rules (including momentum and AdaFactor) are compatible with this scheme because they rely on linear operations like averages and exponential moving averages. Likewise, gradient accumulation (in which gradients from multiple passes with different data examples are combined) can occur in the compressed space with no need to store the full gradients.Importantly, the random projection changes frequently during training so that the optimization can sweep the entire parameter space rather than a fixed subspace like in LoRA. Whenever the random subspace changes, Flora carefully maps the compressed optimizer states into the new subspace before incorporating new information. The random projection matrices do not need to be stored but can be regenerated on the fly from a random seed. The full scheme is illustrated in figure 2.Figure 2: Flora. The gradient is projected to a random low-dimensional subspace and then used to update the optimizer states (e.g., the momentum term). This is then projected back to parameter space to make the update. Only the compressed optimizer states and the seed used to generate the random subspaces need be stored between the forward/backward passes.Furthermore, Flora is orthogonal to many memory-efficient automatic differentiation techniques. Specifically, activation checkpointing (AC) recomputes the activations during back-propagation instead of storing them in the forward pass. LOMO, on the other hand, promptly updates the layer weight upon obtaining its gradient without waiting until all layers are finished. Both techniques are unaffected when using Flora. As a result, the peak memory allocated is only 21.2GiB for the 7B model.To further illustrate how Flora works with and without AC and LOMO, we contrast it with the standard Adam optimizer. Typically, there are three components in deep learning training: the model parameters, the optimizer, and the activations. The overall procedure Adam is animated as follows:Figure 3: Adam optimizer and memory usage: Adam needs to store the first and second-order moments for each parameter, which requires two times additional memory needed for the model parameters.In Flora, we use low-rank random projections to compress the gradients. The overall procedure is as follows:Figure 4: Flora without activation checkpointing (AC) and layer-by-layer update (LOMO).The low-rank random projections reduces the memory usage by a factor of rank / d, where rank is the rank of the low-rank random projections and d is the dimension of the model parameters. In addition, the low-rank random projections can be generated on-the-fly using the random seed, which further reduces the memory usage.When combined with AC and LOMO, each layer’s weight is updated immediately once its update tensor is computed. This allows the gradient, compressed gradient, activation, and updates at a layer to be freed immediately after the layer parameters are updated and the error signal for back propagation is computed:Figure 5: Flora with activation checkpointing (AC) and layer-by-layer update (LOMO): only the parameters, compressed optimizer states, and at most one layer’s gradient occupy GPU memory at the same time; furthermore AC keeps a sublinear (in model depth) number of activations at each time.Figure 6 shows the minimum GPU memory required to pre-train models of various sizes using Adam, GaLore, and Flora.For Adam, we assume that the model parameters/gradients are in BF16 and that the optimizer states are in FP32. Furthermore, we push the memory/speed trade-off to the limit to get the minimum memory requirement. This is achieved with gradient accumulation using the smallest batch size of one and gradient checkpointing. Note that our current PyTorch version is not currently as memory efficient as the JAX version. We hope to improve this in the future.GaLore Zhao et al. (2024) was developed concurrently to Flora and achieves comparable memory savings for full parameter training. The intuition behind GaLore is the same as Flora (i.e., gradients of full parameter training can be compressed). However, Flora has three key advantages:1. Projection matrix storage: GaLore projects onto the left singular vectors from the singular value decomposition. This projection matrix must be stored for subsequent use (for compressing more gradients or decompression). In contrast, Flora randomly generates the projection matrix and only needs to store the random seed to re-generate it for decompression. Consequently, Flora requires less memory.2. Gradient accumulation: GaLore does not explore efficient gradient accumulation (in which gradients for different data examples are computed in separate passes and then summed to update the model). Naive gradient accumulation requires a space that is linear in the number of parameters, obviating the rationale for the technique. Flora handles this by storing the partial sum of the gradients in the compressed space.3. Better momentum updates: Both methods periodically change the projection subspace. When that happens, GaLore adds the current step’s gradient projected in the new subspace to the momentum from the old subspace. The GaLore paper states this is not problematic because the relevant subspace along the optimization path changes slowly. However, for small batch sizes, noise could affect the stability of the SVD subspace. Conversely, Flora projects the momentum into the new subspace in a principled manner.We empirically benchmarked against GaLore, using the hyper parameters and dataset from the GaLore paper, and found that Flora requires less memory (figure 1). Furthermore, Flora outperforms GaLore in terms of the perplexity scores.Furthermore, as an optimizer, Flora can be applied beyond models for thetext-domain. Table 2 shows Flora working with a vision transformer (ViT) architecture.It is worth noting that GaLore and Flora have complementary aspects that could benefit each other. Flora’s gradient accumulation could be ported to GaLore. Conversely, GaLore can work with any optimizer, while Flora currently has a specific form of compressed momentum and Adafactor style adaptive normalization. It would be useful to extend Flora to other forms as well.For fine-tuning, Flora outperforms LoRA in Rouge scores and memory efficiency. For more results, please see our paper. The results in Figure 7 use the JAX implementation for both Flora and LoRA, without gradient checkpointing, quantization, or momentum.Flora significantly decreases the memory required for training neural network models without decreasing performance. It is extremely easy to integrate with existing code and reduces the number of required GPUs or increases the speed of training. We hope that Flora will allow more researchers to explore full training, and increase the pace of algorithmic innovation.This impactful use case of Flora is the outcome of RBC Borealis’s partnership with the Department of Computing Science at the University of Alberta, the Alberta Machine Intelligence Institute (AMII), and Mitacs.If you use Flora, please cite our paper: @inproceedings{hao2024flora,title={Flora: Low-Rank Adapters Are Secretly Gradient Compressors},author={Yongchang Hao and Yanshuai Cao and Lili Mou},booktitle={Forty-first International Conference on Machine Learning},year={2024},url={https://openreview.net/forum?id=uubBZKM99Y}}Founded by the  Royal Bank of Canada.ResearchApplicationsCommunityCareers© 2025 RBC Borealis
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[First, we show how to incorporate Flora into code. Second, we give a high-level overview of how Flora works. Third, we provide benchmark training results. Finally, we compare Flora to the subsequent and closely related GaLore method.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://yanshuaicao-new.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/tabs</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
-
-Content 1
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
-
-Content 2
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="78bca0be-f748-482b-b1fa-afae83d18790" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="78bca0be-f748-482b-b1fa-afae83d18790" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="64e2385a-7c3c-4a36-95d6-2858bf2bc585" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="64e2385a-7c3c-4a36-95d6-2858bf2bc585" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="332f1474-1e9b-44f8-82e2-2adb8fd013f2" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="332f1474-1e9b-44f8-82e2-2adb8fd013f2" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://yanshuaicao-new.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/typograms</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://yanshuaicao-new.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://yanshuaicao-new.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://yanshuaicao-new.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://yanshuaicao-new.github.io/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/advanced-images</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/9-480.webp 480w,/assets/img/9-800.webp 800w,/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic_color-480.webp 480w,/assets/img/prof_pic_color-800.webp 800w,/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://yanshuaicao-new.github.io/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/vega-lite</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry><entry><title type="html">a post with geojson</title><link href="https://yanshuaicao-new.github.io/blog/2024/geojson-map/" rel="alternate" type="text/html" title="a post with geojson"/><published>2024-01-26T17:57:00+00:00</published><updated>2024-01-26T17:57:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2024/geojson-map</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2024/geojson-map/"><![CDATA[<p>This is an example post with some <a href="https://geojson.org/">geojson</a> code. The support is provided thanks to <a href="https://leafletjs.com/">Leaflet</a>. To create your own visualization, go to <a href="https://geojson.io/">geojson.io</a>.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">geojson
-</span><span class="sb">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-geojson">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[First, we show how to incorporate Flora into code. Second, we give a high-level overview of how Flora works. Third, we provide benchmark training results. Finally, we compare Flora to the subsequent and closely related GaLore method.]]></summary></entry><entry><title type="html">Causmos: Machine Intelligence beyond Predictive ML - RBC Borealis</title><link href="https://yanshuaicao-new.github.io/blog/2023/causmos-machine-intelligence-beyond-predictive-ml-rbc-borealis/" rel="alternate" type="text/html" title="Causmos: Machine Intelligence beyond Predictive ML - RBC Borealis"/><published>2023-10-23T00:00:00+00:00</published><updated>2023-10-23T00:00:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2023/causmos-machine-intelligence-beyond-predictive-ml---rbc-borealis</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2023/causmos-machine-intelligence-beyond-predictive-ml-rbc-borealis/"><![CDATA[<p>By using this website, you agree to our  Privacy Policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                            Research Blog
+                        
+                                                                        Causality                                                                    Nov. 23, 2023Y. Cao*Denotes Equal Contribution
+                    Y. Cao                        (11/2).
+                    Causmos: Machine Intelligence beyond Predictive ML. Borealis AI.
+                    https://rbcborealis.com/research-blogs/causmosmachine-intelligence-beyond-predictive-ml/                    
+                Share
+            
+                Share
+            Our AI needs to drive responsible actions and decision-making in rapidly changing environments. With the Causmos program at RBC Borealis, we aim to build machine intelligence beyond predictive ML for financial services by conducting research in areas such as causality, out-of-distribution (OOD) generalization, reasoning and planning in large language models (LLMs) and reinforcement learning.What do a motel owner in a small town near Banff, a recommendation system and future autonomous agents (perhaps powered by LLMs) for a Mars colonization have in common? The answer: they all need to make decisions and take actions directly or via mediation that affect the real world. These actions require them to have a model of their respective domains beyond correlation.The motel owner would know that despite the correlation of high price with low vacancy, it is due to confounding by the higher demand in peak seasons. Raising the price will not help fill rooms generally. Training a recommendation system must account for selection bias in the data introduced by any previous system’s policy and also learn from the outcomes of its own doings. Finally, the LLM-powered autonomous agent acting in the new world must be able to plan its actions beyond scenarios similar to existing observed or simulated data.Likewise, in the financial services sector, ensuring our AI systems drive the right decisions for our clients amidst complex, evolving landscapes is crucial. Even when human oversight is integrated as a safety net in mission-critical tasks, AI influences real-world outcomes through human mediation. The Causmos research program at RBC Borealis is dedicated to advancing machine intelligence beyond predictive ML in this domain. Our focus encompasses different facets and approaches to model actions and their consequences, including reinforcement learning, planning, causal inference, and experimental design. Additionally, we delve into crucial related areas to ensure the safety of actions, such as reasoning, interpretability, adversarial robustness, and out-of-distribution (OOD) generalization. For some of our relevant publications, please see the list at the end.One way to comparatively understand the different approaches to intelligence for actions is through the lens of how much-structured knowledge of the world is used and where the knowledge is coming from.The simplest and most classical framework for learning to act is arguably the bandits. This framework captures the essence of learning about the environment through exploration and using that knowledge to maximize the effectiveness of exploitation. The hallmark of bandits is their minimal reliance on prior or learned knowledge. Indeed, Bandits assume a stateless environment, and in the multi-armed bandit setting, the only information learned is some (partial) knowledge of the reward distribution of different levers. Extending the same core ideas to sequential decision-making yields model-free reinforcement learning (RL). Through essentially the same trial-and-error, model-free RL algorithms decipher the “goodness” of states without explicitly modelling the mechanisms of the environment. Bandits and model-free RL are particularly suitable when the feedback loop is quick and the cost of exploration is relatively low. This characteristic renders them apt for scenarios where the task at hand can be learned through direct interaction with the environment, eschewing the necessity for an elaborate world model. Most Internet platforms use some kind of bandit or model-free RL for their advertising or recommendation platforms (for example, Netflix’s use of multi-arm bandit and Google’s use of RL in YouTube recommendations). In the world of financial services, RBC Borealis and RBC Capital Market built a highly successful RL-based trading agent for market-making called Aiden.The downside of this model-free approach is that solving hard problems with- out structured knowledge of the world would necessitate lots of data through trial-and-error exploration. This high sample complexity quickly becomes infeasible in settings where feedback from the environment is sparse, delayed, costly or if certain exploration can be unsafe. In financial services, an example is the pricing of products, where outcomes require human negotiation to play out. This is where planning shines if a good domain model is available. In problems where the states are discrete and fully observed, the transition dynamics are deterministic; planning is equivalent to finding a path in a graph that traverses from the initial state node to the goal state node. In continuous problems, this is akin to trajectory optimization and control. There is little need for trial and error exploration while dangerous or desirable states can be avoided. There are variants of the problem with relaxed requirements and corresponding planning algorithms, but generally, a complete and accurate domain model is still needed, even if it is probabilistic. However, engineering robust domain models or simulators is challenging and hard to scale with the complexity of the domain. As we transition to open-domain problems, the feasibility of such an engineered domain model wanes, accentuating the importance of learning a competent world model. There are proposals to learn the domain models as part of the RL agent, giving rise to model-based RL. Despite its appealing premise and its introduction quite some time ago (for instance, the renowned Dyna architecture (Sutton, 1991)), model-based RL has yet to achieve widespread success.Outside the RL and planning literature, causal inference represents an alternative to studying the effect of actions, i.e. treatments in this context. Tools of causal inference leverage domain knowledge and limited data to separate causation from mere correlation. Through meticulously designed experiments or observational studies, it endeavours to infer how the world might react to various treatments. In causal inference, there is a much stronger reliance on domain knowledge, usually imparted by humans. Still, it can be learned from data via causal discovery, given some human-supplied assumptions. Unlike the model-free RL, causal inference hinges on a more structured understanding of the domain. And unlike planning, causal inference does not require a complete model of the domain but only what is necessary to complement the data to answer specific causal queries. On the one hand, this allows for more informed actions with less data; conversely, CI requires more human design effort and is typically less autonomous. Finally, the formulation in CI is not centred around the notion of reward but can be combined with a decision framework for optimizing actions. For example, in causal bandit learning, inferring some structural information about the bandit’s arms makes bandit learning probably more efficient. More generally, there is an emergent field of causal reinforcement learning. Finally, there is an interesting new class of model called Generative Flow Networks (GFlowNets) (Bengio et al., 2021), which allows neural networks to learn from rewards like in RL to model graph structures like causal graphs. In summary, bandits and model-free RL perform well in domains with a high volume of rapid feedback, and the cost associated with exploration is minimal. However, in certain areas of financial services, regulatory constraints or other limitations often result in actions that yield delayed or sparse feedback, making exploration costly or restricted. In such scenarios, it is unsurprising that having a deeper understanding of the domain reduces the need for trial-and-error exploitation. We have achieved some success in building systems capable of making intelligent decisions despite encountering delayed or sparse feedback, which we hope to reveal and delve deeper into in the future. Figure 2 summarizes the comparisons of the different types of technologies for intelligent actions.Figure 2: Comparing the different frameworks for intelligent actions on four dimensions: (1) the amount of domain/world knowledge used (x-axis); (2) the degree of autonomy versus human design required for building the system (y-axis); (3) the maturity of the technology (colour) and (4) the generality or potential generality of the technology (size). Before LLMs, among methods that have found some commercial successes, unsurprisingly, there is a negative correlation between the amount of domain knowledge the method requires and the degree of autonomy. These technologies are all limited in their generality. Bandit and model-free RL are not sample efficient enough to be applicable in scenarios with slow or sparse feedback. Traditionally, both causal inference and planning require too much human design effort in complex problems. So, the solution would not be commercially viable unless the problem is extremely valuable. Model-based RL has promised to break this pattern, but the technology is not yet working well.With recent advancements, Large Language Models (LLMs) can now seamlessly leverage an extensive reservoir of knowledge and skills. This has ignited a new-found hope that LLM-based autonomous agents can formulate plans to tackle intricate problems, utilizing their pre-existing knowledge acquired through pre-training or acquiring new skills on the fly through in-context learning in novel situations. Furthermore, using text as the unified communication interface, AI agents fulfilling human requests can formulate their own subgoals, plan accordingly, and perform various tasks toward achieving the human-specified goal, all by composing calls to LLMs and external tools. Or so it seems.Underneath the excitement generated by ambitious demos and rapid progress from academia, industry and hobbyists alike, there lurks fundamental challenges. We see at least three core issues as of today:For the first issue, LLM agents must retrieve external data, read and write to external memory, and use tools. All of these require them to communicate via a text interface with a finite context window. But both the length of the messages and the information density per unit length of the message are limited. Additionally, many advanced approaches for enhancing reasoning and planning involve layers of LLMs calls, such as Tree-of-Thought (Yao et al., 2023a), Graph-of-Thought (Besta et al., 2023), ReAct (Yao et al., 2023b), Reflexion (Shinn et al., 2023). Therefore, the limitation in communication bandwidth makes it hard for the agent to maintain consistency of its reasoning and actions without losing local nuances or global context when performing complex tasks. With the rapid progress in scaling the context window size, this is likely the easiest problem to resolve. At the time of writing, GPT-4-Turbo has a 32K token context size. However, it remains to see whether the long but finite communication bandwidth is sufficient when LLM agents need to tackle complex real-world challenges that could require a variable number of steps.For the second issue, several studies have shown that even the most powerful LLMs can fail to extrapolate to longer tasks involving composing or repeating the same simple steps, for example, in arithmetic (Dziri et al., 2023). While arithmetic can be solved by giving LLMs access to a calculator (Schick et al., 2023), in the context of planning complex actions, the same underlying issue means LLMs can fail to track state dynamics properly. Understanding the root cause of such limitation, whether it is the Transformer architecture, the auto-regressive nature of training and inference, the data, or something else, is an open problem and active area of research.Finally, despite efforts to align LLMs for safety and usefulness for chat, such alignment is just guard-railing LLMs’ interaction with humans. It may not correct fundamental mistakes in how its representation deviates from the true causality of the world or the representation of humans. For example, Zeˇcevi ́c et al. (2023) showed theoretically and Jin et al. (2023) empirically that today’s LLMs do not understand causality. The deviation from causal reality means that LLMs will learn shortcuts and spurious correlations that fail in out-of-distribution settings, as shown for mathematical reasoning by Stolfo et al. (2023). Deviation from humans’ representation means they are prone to adversarial attacks (Zou et al., 2023), a failure mode that humans do not fall prey to.From the motel owner’s intuitive grasp of their trade to the recommendation systems that permeate the digital realm to the awe-inspiring prospects of autonomous Martian colonization, one simple truth remains evident: intelligent actions need world knowledge. On the other hand, it is fair to ask: does knowledge need action? In other words, can robust world knowledge be acquired through passive observations alone? Or would it be fundamentally flawed without training on the outcomes of one’s own actions?In restricted domains, fitting curves with the correct hypothesis class could potentially yield perfect OOD generalization. In the open domain, with the success of LLMs pre-trained on massive corpora, many people believe that scaling, perhaps with multi-modal data, is “all you need” for AI, while others think there are fundamental flaws in the current approach. Time and more research will tell, but one thing is sure: answers to questions like this have profound im- plications for both the long-term roadmap of the AI community and immediate applications that demand robustness, such as in financial services. Robust Risk-Sensitive Reinforcement Learning Agents for Trading Markets
+                            *Y. Gao, K. Y. C. Lui, and P. Hernandez-Leal. International Conference on Machine Learning Workshop (ICML), 2021                            
+                            Reinforcement Learning                            
+                        Publication
+                    Maximum Entropy Monte-Carlo Planning
+                            C. Xiao, R. Huang, J. Mei, D. Schuurmans, and M. Müller. Conference on Neural Information Processing Systems (NeurIPS), 2019                            
+                            Causmos; Reinforcement Learning                            
+                        Publication
+                    On Principled Entropy Exploration in Policy Optimization
+                            *J. Mei, *C. Xiao, R. Huang, D. Schuurmans, and M. Müller. International Joint Conference on Artificial Intelligence (IJCAI), 2019                            
+                            Reinforcement Learning                            
+                        Publication
+                    Action Guidance with MCTS for Deep Reinforcement Learning
+                            *B. Kartal, *P. Hernandez-Leal, and M. E. Taylor. AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), 2019                            
+                            Reinforcement Learning                            
+                        Publication
+                    Using Monte Carlo Tree Search as a Demonstrator within Asynchronous Deep RL
+                            B. Kartal, P. Hernandez-Leal, and M. E. Taylor. Association for the Advancement of Artificial Intelligence Workshop on Reinforcement Learning in Games (AAAI-19), 2018                            
+                            Reinforcement Learning                            
+                        Publication
+                    Causal Bandits without Graph Learning
+                            M. Konobeev.                             
+                            Causality                            
+                        Research Blog
+                    Meet Aiden, an AI-powered electronic trading platform
+                            Reinforcement Learning                            
+                        News
+                    TURING: an Accurate and Interpretable Multi-Hypothesis Cross-Domain Natural Language Database Interface
+                            *P. Xu, *W. Zi, H. Shahidi, A. Kádár, K. Tang, W. Yang, J. Ateeq, H. Barot, M. Alon, and Y. Cao. Association for Computational Linguistics (ACL) &amp; International Joint Conference on Natural Language Processing (IJCNLP), 2021                            
+                            Causmos; Natural Language Processing                            
+                        Publication
+                    On Variational Learning of Controllable Representations for Text without Supervision
+                            P. Xu, J. Chi Kit Cheung, and Y. Cao. International Conference on Machine Learning (ICML), 2020                            
+                            Causmos; Unsupervised Learning                            
+                        Publication
+                    Polarized-VAE: Proximity Based Disentangled Representation Learning for Text Generation
+                            V. Balasubramanian, I. Kobyzev, H. Bahuleyan, and O. Vechtomova. Conference of the European Chapter of the Association for Computational Linguistics (EACL), 2021                            
+                            Generative Models                            
+                        Publication
+                    Optimizing Deeper Transformers on Small Datasets
+                            P. Xu, D. Kumar, W. Yang, W. Zi, K. Tang, C. Huang, J. Chi Kit Cheung, S. Prince, and Y. Cao. Association for Computational Linguistics (ACL) &amp; International Joint Conference on Natural Language Processing (IJCNLP), 2021                            
+                            Causmos; Natural Language Processing                            
+                        Publication
+                    Object Grounding via Iterative Context Reasoning
+                            L. Chen, M. Zhai, J. He, and G. Mori. International Conference on Computer Vision Workshop on Multi-Discipline Approach for Learning Concepts at IEEE International Conference on Computer Vision (ICCV), 2019                            
+                            Causmos; Computer Vision                            
+                        Publication
+                    A Cross-Domain Transferable Neural Coherence Model
+                            P. Xu, H. Saghir, J. Kang, L. Long, A. J. Bose, and Y. Cao. Association for Computational Linguistics (ACL), 2019                            
+                            Causmos; Natural Language Processing                            
+                        Publication
+                    On the Sensitivity of Adversarial Robustness to Input Data Distributions
+                            G. W. Ding, K. Y. C. Lui, T. Jin, L. Wang, and R. Huang. International Conference on Learning Representations (ICLR), 2019                            
+                            Learning And Generalization; Responsible AI                            
+                        Publication
+                    Adversarial Contrastive Estimation
+                            *A. J. Bose, *H. Ling, and *Y. Cao. Association for Computational Linguistics (ACL), 2018                            
+                            Causmos; Learning And Generalization; Responsible AI                            
+                        Publication
+                    Max-Margin Adversarial Training: Direct Input Space Margin Maximization through Adversarial Training
+                            G. W. Ding, Y. Sharma, K. Lui, and R. Huang. International Conference on Learning Representations (ICLR), 2020                            
+                            Causmos; Learning And Generalization; Responsible AI                            
+                        Publication
+                    On the Effectiveness of Low Frequency Perturbations
+                            Y. Sharma, G. W. Ding, and M. Brubaker. International Joint Conference on Artificial Intelligence (IJCAI), 2019                            
+                            Computer Vision; Responsible AI                            
+                        Publication
+                    References Emmanuel Bengio, Moksh Jain, Maksym Korablyov, Doina Precup, and Yoshua Bengio. Flow network-based generative models for non-iterative diverse candidate generation. Advances in Neural Information Processing Systems, 34: 27381–27394, 2021.Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Lukas Gi- aninazzi, Joanna Gajda, Tomasz Lehmann, Michal Podstawski, Hubert Niewiadomski, Piotr Nyczyk, and Torsten Hoefler. Graph of Thoughts: Solv- ing Elaborate Problems with Large Language Models, 2023.Nouha Dziri, Ximing Lu, Melanie Sclar, Xiang Lorraine Li, Liwei Jiang, Bill Yuchen Lin, Sean Welleck, Peter West, Chandra Bhagavatula, Ronan Le Bras, Jena D. Hwang, Soumya Sanyal, Xiang Ren, Allyson Ettinger, Zaid Harchaoui, and Yejin Choi. Faith and fate: Limits of transformers on compo- sitionality. In the Thirty-seventh Conference on Neural Information Processing Systems, 2023. URL https://openreview.net/forum?id=Fkckkr3ya8.Zhijing Jin, Jiarui Liu, Zhiheng Lyu, Spencer Poff, Mrinmaya Sachan, Rada Mihalcea, Mona Diab, and Bernhard Sch ̈olkopf. Can large language models infer causation from correlation?, 2023.Timo Schick, Jane Dwivedi-Yu, Roberto Dess`ı, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can teach themselves to use tools. ArXiv, abs/2302.04761, 2023. URL https://api.semanticscholar.org/CorpusID:256697342.Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Reflexion: Language agents with verbal reinforcement learning, 2023.Alessandro Stolfo, Zhijing Jin, Kumar Shridhar, Bernhard Schoelkopf, and Mrinmaya Sachan. A causal framework to quantify the robustness of mathematical reasoning with language models. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki, editors, Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 545–561, Toronto, Canada, July 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.acl-long.32. URL https: //aclanthology.org/2023.acl-long.32.Richard S. Sutton. Dyna, an integrated architecture for learning, planning, and reacting. SIGART Bull., 2(4):160–163, jul 1991. ISSN 0163-5719. doi: 10.1145/122344.122377. URL https://doi.org/10.1145/122344.122377.Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of Thoughts: Deliberate problem solving with large language models, 2023a.Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. ReAct: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR), 2023b.Matej Zeˇcevi ́c, Moritz Willig, Devendra Singh Dhami, and Kristian Kersting. Causal parrots: Large language models may talk causality but are not causal. Transactions on Machine Learning Research, 2023. ISSN 2835-8856. URL https://openreview.net/forum?id=tv46tCzs83.Andy Zou, Zifan Wang, J. Zico Kolter, and Matt Fredrikson. Universal and transferable adversarial attacks on aligned language models, 2023.
+                The team’s commitment to creating real-world impact through scientific pursuit led to RBC Borealis establishing a set of challenging North Star research problems, such as Causmos: Machine Intelligence beyond Predictive ML.                 Founded by the  Royal Bank of Canada.ResearchApplicationsCommunityCareers© 2025 RBC Borealis
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[With the Causmos program at RBC Borealis, we aim to build machine intelligence beyond predictive ML for financial services by conducting research in areas such as causality, out-of-distribution (OOD) generalization, reasoning and planning in large language models (LLMs) and reinforcement learning.]]></summary></entry><entry><title type="html">Just a moment…</title><link href="https://yanshuaicao-new.github.io/blog/2023/just-a-moment/" rel="alternate" type="text/html" title="Just a moment…"/><published>2023-07-21T00:00:00+00:00</published><updated>2023-07-21T00:00:00+00:00</updated><id>https://yanshuaicao-new.github.io/blog/2023/just-a-moment</id><content type="html" xml:base="https://yanshuaicao-new.github.io/blog/2023/just-a-moment/"><![CDATA[]]></content><author><name></name></author></entry></feed>
