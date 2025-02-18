@@ -32,7 +32,7 @@ I build AI products that generate value for others, and conduct fundamental rese
 
 At RBC Borealis, my job is "simple": 1) find ways AI can create or optimize value, 2) scale teams, technology, and business to make it happen.
 
-Most of my product work is confidential, so this site focuses on research and projects that I can share, and my [poems (颜辞)](/poetry/). 
+Most of my product work is confidential, so this site focuses on [research](/projects/), [blog](/blog/) and [publications](/publications/) that I can share, and my [poems (颜辞)](/poetry/). 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
