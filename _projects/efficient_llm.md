@@ -36,12 +36,6 @@ We introduced NeuZip, a novel weight compression scheme based on the entropy of 
 [Publication Details](/publications/#hao2024neuzip){:target="_blank"}
 
 ### InvarExplore: Ultra-Low-Bit Model Quantization
-<div class="row mt-3">
-    <div class="col-sm-6 mx-auto mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/invarexplore.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 We developed InvarExplore, a unified framework for ultra-low-bit quantization (e.g., 2 bits) that systematically explores different types of model invariance simultaneously. The framework features a novel discrete search algorithm that enables exploration of permutation invariance - an aspect that traditional gradient-based methods cannot optimize. InvarExplore achieves additional performance improvements when combined with existing state-of-the-art quantization methods.
 
 [Publication Details](/publications/#wen2025exploringmodelinvariancediscrete){:target="_blank"}
