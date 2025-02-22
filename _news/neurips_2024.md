@@ -12,16 +12,20 @@ I will be presenting 2 conference papers and 1 workshop papers with my collabora
 **Authors:** Sadegh Mahdavi, Raquel Aoki, Keyi Tang, Yanshuai Cao   
 **Time:** Fri 13 Dec 11 a.m. PST — 2 p.m. PST   
 **Location:** East Exhibit Hall A-C #2906 
+[Publication Details](/publications/#mahdavi2024leveragingenvironmentinteractionautomated){:target="_blank"}
 
 **Conference Paper:** [Do LLMs Build World Representations? Probing Through the Lens of State Abstraction](https://openreview.net/forum?id=lzfzjYuWgY)  
 **Authors:** Zichao Li, Yanshuai Cao, Jackie Chi Kit Cheung      
 **Time:** Fri 13 Dec 11 a.m. PST — 2 p.m. PST  
 **Location:** East Exhibit Hall A-C #3307 
+[Publication Details](/publications/#lillms){:target="_blank"}
 
 **Workshop Paper:** [NeuZip: Memory-Efficient Training and Inference with Dynamic Compression of Neural Networks](https://arxiv.org/abs/2410.20650)     
 **Authors:** Yongchang Hao, Yanshuai Cao, Lili Mou       
 **Time:** Sat 14 Dec, 8:15 a.m. PST     
 **Location:** The Fourth Workshop on Efficient Natural Language and Speech Processing (ENLSP-IV): Highlighting New Architectures for Future Foundation Models, West Meeting Room 301
+[Publication Details](/publications/#hao2024neuzip){:target="_blank"}
+
 
 <!-- #### Hipster list
 

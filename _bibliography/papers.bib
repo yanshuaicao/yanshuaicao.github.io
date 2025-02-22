@@ -3,6 +3,21 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@article{wen2025exploringmodelinvariancediscrete,
+      title={Exploring Model Invariance with Discrete Search for Ultra-Low-Bit Quantization}, 
+      author={Yuqiao Wen and Yanshuai Cao and Lili Mou},
+      abbr={Preprint},
+      year={2025},
+      eprint={2502.06844},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      arxiv={2502.06844},
+      abstract={Large language models have been increasing in size due to their success in a wide range of applications. This calls for a pressing need to reduce memory usage to make them more accessible. Post-training quantization is a popular technique which uses fewer bits (e.g., 4--8 bits) to represent the model without retraining it. However, it remains a challenging task to perform quantization in an ultra-low-bit setup (e.g., 2 bits). In this paper, we propose InvarExplore, a unified framework that systematically explores different model invariance at the same time, allowing us to take advantage of the synergy between each type of invariance. Importantly, InvarExplore features a discrete search algorithm that enables us to explore permutation invariance, which is under-studied as it cannot be optimized with gradient-based methods. Results show that InvarExplore is compatible with existing state-of-the-art methods, achieving an add-on performance improvement over strong competing methods.},
+      url={https://arxiv.org/abs/2502.06844}, 
+}
+
+
 @article{wen2024ebbsensemblebilevelbeam,
       bibtex_show={true},
       abbr={AAAI},
@@ -47,6 +62,7 @@
  PDDL environments. We achieve an average task solve rate of 66% compared to a 29% solve rate by GPT-4's intrinsic planning with chain-of-thought prompting. Our work enables the automated modeling of planning environments using LLMs and environment feedback, eliminating the need for human intervention in the PDDL translation process and paving the way for more reliable LLM agents in challenging problems. Our code is available at https://github.com/BorealisAI/llm-pddl-planning},
    selected={true},
    preview={llm_pddl.png},
+   code={https://github.com/BorealisAI/llm-pddl-planning},
 }
 
 @inproceedings{lillms,
