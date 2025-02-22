@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I build AI products that generate value for others, and conduct fundamental research and write classical style Chinese poems as creative outlets for myself.
+I build AI solutions that generate value for others, and conduct fundamental research and write classical style Chinese poems as creative outlets for myself.
 
 At RBC Borealis, my job is "simple": 1) find ways AI can create or optimize value, 2) scale teams, technology, and business to make it happen.
 
