@@ -311,7 +311,7 @@ ninja.data = [{
               window.location.href = "/poetry/%E4%B8%83%E7%BB%9D%C2%B7%E7%A7%8B%E6%A2%A6/";
             },},{id: "poetry-乐府-澽湄续墨",
           title: '乐府·澽湄续墨',
-          description: "千年澽水 赠吾宫商 不事藻绘 惟真自彰 诗循古道 赋涉沧浪 墨融春涧 履印秋霜 文承汉魏 阕续新章 俊采星驰 知音共芳 幸甚至哉 歌以咏志",
+          description: "千年澽水 赠吾宫商 不事藻绘 惟真自彰 诗循古道 赋涉沧浪 墨融春涧 履印秋霜 文承汉魏 赋涉沧浪 俊采星驰 知音共芳 幸甚至哉 歌以咏志",
           section: "Poetry",handler: () => {
               window.location.href = "/poetry/%E6%BE%BD%E6%B9%84%E7%BB%AD%E5%A2%A8/";
             },},{id: "projects-adversarial-learning-and-robustness",
