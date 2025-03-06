@@ -291,7 +291,7 @@ ninja.data = [{
               window.location.href = "/poetry/%E4%B8%83%E5%BE%8B%C2%B7%E8%BF%87%E6%9B%B2%E6%B1%9F%E6%B1%A0/";
             },},{id: "poetry-读两宋诗词简史有感",
           title: '读两宋诗词简史有感',
-          description: "篇终曲尽日落孤影，欲见古人来者唯长梦。悠悠泪洒河星，知音无觅。",
+          description: "篇终曲尽日落孤影，欲见古人来者唯长梦。悠悠泪洒河星。",
           section: "Poetry",handler: () => {
               window.location.href = "/poetry/%E8%AF%BB%E4%B8%A4%E5%AE%8B%E8%AF%97%E8%AF%8D%E7%AE%80%E5%8F%B2%E6%9C%89%E6%84%9F/";
             },},{id: "poetry-五绝-无题",
