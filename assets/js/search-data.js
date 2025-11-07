@@ -316,7 +316,7 @@ ninja.data = [{
               window.location.href = "/poetry/%E6%BE%BD%E6%B9%84%E7%BB%AD%E5%A2%A8/";
             },},{id: "poetry-七绝-四月飞花两首",
           title: '七绝·四月飞花两首',
-          description: "麻省飞花遇故知，素描湘酿续杯迟。醍醐灌顶三两句，地北天南鲈鱼期。 四月青春怒放时，飞红樱雨易安词。桂花载酒兰花醉，西水黄鸡弄发迟。",
+          description: "其一：四月青春怒放时，飞红樱雨易安词。桂花载酒兰花醉，西水黄鸡弄发迟。 其二：麻省飞花遇故知，素描湘酿续杯迟。醍醐灌顶三两句，地北天南鲈鱼期。",
           section: "Poetry",handler: () => {
               window.location.href = "/poetry/%E4%B8%83%E7%BB%9D%C2%B7%E5%9B%9B%E6%9C%88%E9%A3%9E%E8%8A%B1%E4%B8%A4%E9%A6%96/";
             },},{id: "poetry-望江南-游新苑",
