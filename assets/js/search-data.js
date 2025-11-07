@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/poetry/";
           },
-        },{id: "post-pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora-rbc-borealis",
+        },{id: "post-pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora-research-blog-rbc-borealis",
       
-        title: 'Pre-training multi-billion parameter LLMs on a single GPU with Flora - RBC Borealis... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Pre-training multi-billion parameter LLMs on a single GPU with Flora - Research Blog... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "First, we show how to incorporate Flora into code. Second, we give a high-level overview of how Flora works. Third, we provide benchmark training results. Finally, we compare Flora to the subsequent and closely related GaLore method.",
       section: "Posts",
@@ -48,9 +48,9 @@ ninja.data = [{
           window.open("https://rbcborealis.com/research-blogs/pre-training-multi-billion-parameter-llms-on-a-single-gpu-with-flora/", "_blank");
         
       },
-    },{id: "post-causmos-machine-intelligence-beyond-predictive-ml-rbc-borealis",
+    },{id: "post-causmos-machine-intelligence-beyond-predictive-ml-research-blog-rbc-borealis",
       
-        title: 'Causmos: Machine Intelligence beyond Predictive ML - RBC Borealis <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Causmos: Machine Intelligence beyond Predictive ML - Research Blog | RBC Borealis <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "With the Causmos program at RBC Borealis, we aim to build machine intelligence beyond predictive ML for financial services by conducting research in areas such as causality, out-of-distribution (OOD) generalization, reasoning and planning in large language models (LLMs) and reinforcement learning.",
       section: "Posts",
@@ -314,6 +314,16 @@ ninja.data = [{
           description: "千年澽水 赠吾宫商 不事藻绘 惟真自彰 诗循古道 赋涉沧浪 墨融春涧 履印秋霜 文承汉魏 赋涉沧浪 俊采星驰 知音共芳 幸甚至哉 歌以咏志",
           section: "Poetry",handler: () => {
               window.location.href = "/poetry/%E6%BE%BD%E6%B9%84%E7%BB%AD%E5%A2%A8/";
+            },},{id: "poetry-七绝-四月飞花两首",
+          title: '七绝·四月飞花两首',
+          description: "麻省飞花遇故知，素描湘酿续杯迟。醍醐灌顶三两句，地北天南鲈鱼期。 四月青春怒放时，飞红樱雨易安词。桂花载酒兰花醉，西水黄鸡弄发迟。",
+          section: "Poetry",handler: () => {
+              window.location.href = "/poetry/%E4%B8%83%E7%BB%9D%C2%B7%E5%9B%9B%E6%9C%88%E9%A3%9E%E8%8A%B1%E4%B8%A4%E9%A6%96/";
+            },},{id: "poetry-望江南-游新苑",
+          title: '望江南·游新苑',
+          description: "游新苑，熏草夏蝉邀。日暮西风催雨早，晨曦秋水叹天高。诗酒念奴娇。",
+          section: "Poetry",handler: () => {
+              window.location.href = "/poetry/%E6%9C%9B%E6%B1%9F%E5%8D%97%C2%B7%E6%B8%B8%E6%96%B0%E8%8B%91/";
             },},{id: "projects-adversarial-learning-and-robustness",
           title: 'Adversarial Learning and Robustness',
           description: "Research on adversarial robustness and adversarial learning approaches",
